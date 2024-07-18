@@ -2,5 +2,5 @@
 Repositório Público para CBR 2024
 
 
-'./drone_quad_f450/F450-Montagem.png'
+![Logo do Markdown](./drone_quad_f450/F450-Montagem.png)
 './drone_quad_f260/F260-Montagem.png'
