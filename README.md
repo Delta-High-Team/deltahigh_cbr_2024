@@ -3,7 +3,7 @@ Repositório Público para CBR 2024
 
 Figura 1: Drone Robô F450 
 
-![Drone Robô F450](./drone_quad_f450/F450-Montagem.png)
+![Drone Robô F450](./drone_quad_f450/F450-Montagem.png "Logo Principal da Eagle Tecnologia")
 
 
 
