@@ -1,0 +1,3 @@
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+error: [Errno 17] File exists: '/home/deltahigh/cbr-2024/drone_104/build/mavlink_pkg/resource/mavlink_pkg' -> '/home/deltahigh/cbr-2024/drone_104/install/mavlink_pkg/share/ament_index/resource_index/packages/mavlink_pkg'

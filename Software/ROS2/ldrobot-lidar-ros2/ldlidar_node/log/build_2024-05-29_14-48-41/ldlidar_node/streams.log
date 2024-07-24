@@ -1,0 +1,35 @@
+[0.092s] Invoking command in '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/build/ldlidar_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/build/ldlidar_node -- -j8 -l8
+[0.137s] [100%] Built target ldlidar_node
+[0.146s] Invoked command in '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/build/ldlidar_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/build/ldlidar_node -- -j8 -l8
+[0.174s] Invoking command in '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/build/ldlidar_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/build/ldlidar_node
+[0.180s] -- Install configuration: "Release"
+[0.180s] -- Execute custom install script
+[0.180s] -- Up-to-date symlink: /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node/lib/ldlidar_node/ldlidar_node
+[0.181s] -- Up-to-date symlink: /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node/share/ldlidar_node/params/ldlidar.yaml
+[0.181s] -- Up-to-date symlink: /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node/share/ldlidar_node/params/lifecycle_mgr.yaml
+[0.181s] -- Up-to-date symlink: /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node/share/ldlidar_node/params/lifecycle_mgr_slam.yaml
+[0.181s] -- Up-to-date symlink: /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node/share/ldlidar_node/params/slam_toolbox.yaml
+[0.181s] -- Up-to-date symlink: /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node/share/ldlidar_node/config/ldlidar.rviz
+[0.182s] -- Up-to-date symlink: /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node/share/ldlidar_node/config/ldlidar_slam.rviz
+[0.182s] -- Up-to-date symlink: /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node/share/ldlidar_node/urdf/ldlidar_descr.urdf.xml
+[0.182s] -- Up-to-date symlink: /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node/share/ldlidar_node/urdf/model/LD19.stl
+[0.182s] -- Up-to-date symlink: /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node/share/ldlidar_node/launch/ldlidar.launch.py
+[0.182s] -- Up-to-date symlink: /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node/share/ldlidar_node/launch/ldlidar_rviz2.launch.py
+[0.182s] -- Up-to-date symlink: /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node/share/ldlidar_node/launch/ldlidar_slam.launch.py
+[0.183s] -- Up-to-date symlink: /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node/share/ldlidar_node/launch/ldlidar_with_mgr.launch.py
+[0.183s] -- Up-to-date symlink: /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node/share/ament_index/resource_index/package_run_dependencies/ldlidar_node
+[0.183s] -- Up-to-date symlink: /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node/share/ament_index/resource_index/parent_prefix_path/ldlidar_node
+[0.183s] -- Up-to-date symlink: /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node/share/ldlidar_node/environment/ament_prefix_path.sh
+[0.183s] -- Up-to-date symlink: /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node/share/ldlidar_node/environment/ament_prefix_path.dsv
+[0.183s] -- Up-to-date symlink: /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node/share/ldlidar_node/environment/path.sh
+[0.183s] -- Up-to-date symlink: /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node/share/ldlidar_node/environment/path.dsv
+[0.183s] -- Up-to-date symlink: /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node/share/ldlidar_node/local_setup.bash
+[0.184s] -- Up-to-date symlink: /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node/share/ldlidar_node/local_setup.sh
+[0.184s] -- Up-to-date symlink: /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node/share/ldlidar_node/local_setup.zsh
+[0.184s] -- Up-to-date symlink: /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node/share/ldlidar_node/local_setup.dsv
+[0.184s] -- Symlinking: /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node/share/ldlidar_node/package.dsv
+[0.192s] -- Up-to-date symlink: /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node/share/ament_index/resource_index/packages/ldlidar_node
+[0.192s] -- Up-to-date symlink: /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node/share/ldlidar_node/cmake/ldlidar_nodeConfig.cmake
+[0.192s] -- Up-to-date symlink: /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node/share/ldlidar_node/cmake/ldlidar_nodeConfig-version.cmake
+[0.192s] -- Up-to-date symlink: /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node/share/ldlidar_node/package.xml
+[0.194s] Invoked command in '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/build/ldlidar_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/build/ldlidar_node

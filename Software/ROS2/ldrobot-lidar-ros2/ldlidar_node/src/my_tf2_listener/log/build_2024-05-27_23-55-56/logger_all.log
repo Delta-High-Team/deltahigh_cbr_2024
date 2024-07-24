@@ -1,0 +1,92 @@
+[0.225s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.226s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=3, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x71c08943b940>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x71c08943aa70>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x71c08943aa70>>, mixin_verb=('build',))
+[0.754s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.754s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.754s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.754s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.754s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.754s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.754s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.797s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_python' and name 'my_tf2_listener'
+[0.798s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.798s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.798s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.798s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.798s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.883s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.883s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.888s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install
+[0.888s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/deltahigh/ldrobot-lidar-ros2/install
+[0.890s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/deltahigh/cbr-2024/cbr-2024/drone_108/install
+[0.893s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 391 installed packages in /opt/ros/humble
+[0.899s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.018s] Level 5:colcon.colcon_core.verb:set package 'my_tf2_listener' build argument 'cmake_args' from command line to 'None'
+[1.020s] Level 5:colcon.colcon_core.verb:set package 'my_tf2_listener' build argument 'cmake_target' from command line to 'None'
+[1.020s] Level 5:colcon.colcon_core.verb:set package 'my_tf2_listener' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.020s] Level 5:colcon.colcon_core.verb:set package 'my_tf2_listener' build argument 'cmake_clean_cache' from command line to 'False'
+[1.020s] Level 5:colcon.colcon_core.verb:set package 'my_tf2_listener' build argument 'cmake_clean_first' from command line to 'False'
+[1.020s] Level 5:colcon.colcon_core.verb:set package 'my_tf2_listener' build argument 'cmake_force_configure' from command line to 'False'
+[1.021s] Level 5:colcon.colcon_core.verb:set package 'my_tf2_listener' build argument 'ament_cmake_args' from command line to 'None'
+[1.021s] Level 5:colcon.colcon_core.verb:set package 'my_tf2_listener' build argument 'catkin_cmake_args' from command line to 'None'
+[1.021s] Level 5:colcon.colcon_core.verb:set package 'my_tf2_listener' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.021s] DEBUG:colcon.colcon_core.verb:Building package 'my_tf2_listener' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/build/my_tf2_listener', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener', 'merge_install': False, 'path': '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener', 'symlink_install': False, 'test_result_base': None}
+[1.021s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.022s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.023s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener' with build type 'ament_python'
+[1.023s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_tf2_listener', 'ament_prefix_path')
+[1.026s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.026s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/share/my_tf2_listener/hook/ament_prefix_path.ps1'
+[1.028s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/share/my_tf2_listener/hook/ament_prefix_path.dsv'
+[1.030s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/share/my_tf2_listener/hook/ament_prefix_path.sh'
+[1.031s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.032s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.633s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener'
+[2.634s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.636s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.218s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener': PYTHONPATH=/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/build/my_tf2_listener/prefix_override:/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/my_tf2_listener build --build-base /home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/build/my_tf2_listener/build install --record /home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/build/my_tf2_listener/install.log --single-version-externally-managed install_data
+[5.114s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener' returned '0': PYTHONPATH=/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/build/my_tf2_listener/prefix_override:/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/my_tf2_listener build --build-base /home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/build/my_tf2_listener/build install --record /home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/build/my_tf2_listener/install.log --single-version-externally-managed install_data
+[5.121s] Level 1:colcon.colcon_core.environment:checking '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener' for CMake module files
+[5.126s] Level 1:colcon.colcon_core.environment:checking '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener' for CMake config files
+[5.128s] Level 1:colcon.colcon_core.environment:checking '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/lib'
+[5.128s] Level 1:colcon.colcon_core.environment:checking '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/bin'
+[5.128s] Level 1:colcon.colcon_core.environment:checking '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/lib/pkgconfig/my_tf2_listener.pc'
+[5.129s] Level 1:colcon.colcon_core.environment:checking '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/lib/python3.10/site-packages'
+[5.129s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_tf2_listener', 'pythonpath')
+[5.136s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/share/my_tf2_listener/hook/pythonpath.ps1'
+[5.137s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/share/my_tf2_listener/hook/pythonpath.dsv'
+[5.138s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/share/my_tf2_listener/hook/pythonpath.sh'
+[5.139s] Level 1:colcon.colcon_core.environment:checking '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/bin'
+[5.139s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_tf2_listener)
+[5.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/share/my_tf2_listener/package.ps1'
+[5.144s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/share/my_tf2_listener/package.dsv'
+[5.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/share/my_tf2_listener/package.sh'
+[5.149s] INFO:colcon.colcon_core.shell:Creating package script '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/share/my_tf2_listener/package.bash'
+[5.154s] INFO:colcon.colcon_core.shell:Creating package script '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/share/my_tf2_listener/package.zsh'
+[5.158s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/share/colcon-core/packages/my_tf2_listener)
+[5.159s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.159s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.159s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.159s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.167s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.167s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.167s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.318s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.318s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/local_setup.ps1'
+[5.320s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/_local_setup_util_ps1.py'
+[5.322s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/setup.ps1'
+[5.327s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/local_setup.sh'
+[5.363s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/_local_setup_util_sh.py'
+[5.364s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/setup.sh'
+[5.367s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/local_setup.bash'
+[5.368s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/setup.bash'
+[5.370s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/local_setup.zsh'
+[5.372s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/setup.zsh'

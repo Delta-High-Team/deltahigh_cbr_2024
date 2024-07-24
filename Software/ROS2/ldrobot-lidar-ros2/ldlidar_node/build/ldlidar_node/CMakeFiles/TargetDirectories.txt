@@ -1,0 +1,10 @@
+/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/build/ldlidar_node/CMakeFiles/uninstall.dir
+/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/build/ldlidar_node/CMakeFiles/ldlidar_node_uninstall.dir
+/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/build/ldlidar_node/CMakeFiles/ldlidar_node.dir
+/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/build/ldlidar_node/CMakeFiles/test.dir
+/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/build/ldlidar_node/CMakeFiles/edit_cache.dir
+/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/build/ldlidar_node/CMakeFiles/rebuild_cache.dir
+/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/build/ldlidar_node/CMakeFiles/list_install_components.dir
+/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/build/ldlidar_node/CMakeFiles/install.dir
+/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/build/ldlidar_node/CMakeFiles/install/local.dir
+/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/build/ldlidar_node/CMakeFiles/install/strip.dir

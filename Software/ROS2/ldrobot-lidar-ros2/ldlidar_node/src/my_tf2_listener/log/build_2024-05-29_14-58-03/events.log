@@ -1,0 +1,72 @@
+[0.000000] (-) TimerEvent: {}
+[0.000151] (my_tf2_listener) JobQueued: {'identifier': 'my_tf2_listener', 'dependencies': OrderedDict()}
+[0.000181] (my_tf2_listener) JobStarted: {'identifier': 'my_tf2_listener'}
+[0.099568] (-) TimerEvent: {}
+[0.199885] (-) TimerEvent: {}
+[0.300176] (-) TimerEvent: {}
+[0.400430] (-) TimerEvent: {}
+[0.500636] (-) TimerEvent: {}
+[0.600896] (-) TimerEvent: {}
+[0.701188] (-) TimerEvent: {}
+[0.801465] (-) TimerEvent: {}
+[0.901762] (-) TimerEvent: {}
+[1.002093] (-) TimerEvent: {}
+[1.102370] (-) TimerEvent: {}
+[1.202686] (-) TimerEvent: {}
+[1.302974] (-) TimerEvent: {}
+[1.403256] (-) TimerEvent: {}
+[1.503504] (-) TimerEvent: {}
+[1.603768] (-) TimerEvent: {}
+[1.703995] (-) TimerEvent: {}
+[1.711267] (my_tf2_listener) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', 'build/my_tf2_listener', 'build', '--build-base', '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/build/my_tf2_listener/build', 'install', '--record', '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/build/my_tf2_listener/install.log', '--single-version-externally-managed'], 'cwd': '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'joao', 'LC_TIME': 'pt_BR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_component/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/joao', 'OLDPWD': '/home/joao/cbr-2024/ldrobot-lidar-ros2', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'pt_BR.UTF-8', 'MANAGERPID': '1605', 'LC_CTYPE': 'pt_BR.UTF-8', 'SYSTEMD_EXEC_PID': '2166', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5242', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install:/home/joao/cbr-2024/ldrobot-lidar-ros2/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'joao', 'JOURNAL_STREAM': '8:33755', '_': '/usr/local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'joao', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/lib/ccache:/home/joao/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/joao/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/joaoduarte:@/tmp/.ICE-unix/2132,unix/joaoduarte:/tmp/.ICE-unix/2132', 'INVOCATION_ID': 'b5651cf36e92491896b2afb3c328ef2c', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'pt_BR.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'pt_BR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.LEQEO2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener:/home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar:/home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_node:/home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_component:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'pt_BR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:ece12fe7-6df3-4b5f-8187-4f0c57f281b4', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pt_BR.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'pt_BR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/build/my_tf2_listener', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/build/my_tf2_listener/prefix_override:/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/lib/python3.10/site-packages:/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'pt_BR.UTF-8', 'LC_PAPER': 'pt_BR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar:/home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_node:/home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_component'}, 'shell': False}
+[1.804084] (-) TimerEvent: {}
+[1.904368] (-) TimerEvent: {}
+[1.948836] (my_tf2_listener) StdoutLine: {'line': b'running egg_info\n'}
+[1.965704] (my_tf2_listener) StdoutLine: {'line': b'writing build/my_tf2_listener/my_tf2_listener.egg-info/PKG-INFO\n'}
+[1.966135] (my_tf2_listener) StdoutLine: {'line': b'writing dependency_links to build/my_tf2_listener/my_tf2_listener.egg-info/dependency_links.txt\n'}
+[1.966336] (my_tf2_listener) StdoutLine: {'line': b'writing entry points to build/my_tf2_listener/my_tf2_listener.egg-info/entry_points.txt\n'}
+[1.966529] (my_tf2_listener) StdoutLine: {'line': b'writing requirements to build/my_tf2_listener/my_tf2_listener.egg-info/requires.txt\n'}
+[1.966643] (my_tf2_listener) StdoutLine: {'line': b'writing top-level names to build/my_tf2_listener/my_tf2_listener.egg-info/top_level.txt\n'}
+[2.001832] (my_tf2_listener) StdoutLine: {'line': b"reading manifest file 'build/my_tf2_listener/my_tf2_listener.egg-info/SOURCES.txt'\n"}
+[2.004437] (-) TimerEvent: {}
+[2.016584] (my_tf2_listener) StdoutLine: {'line': b"writing manifest file 'build/my_tf2_listener/my_tf2_listener.egg-info/SOURCES.txt'\n"}
+[2.016817] (my_tf2_listener) StdoutLine: {'line': b'running build\n'}
+[2.016891] (my_tf2_listener) StdoutLine: {'line': b'running build_py\n'}
+[2.016975] (my_tf2_listener) StdoutLine: {'line': b'copying my_tf2_listener/tf2_listener.py -> /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/build/my_tf2_listener/build/lib/my_tf2_listener\n'}
+[2.017146] (my_tf2_listener) StdoutLine: {'line': b'copying my_tf2_listener/__init__.py -> /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/build/my_tf2_listener/build/lib/my_tf2_listener\n'}
+[2.017261] (my_tf2_listener) StdoutLine: {'line': b'copying my_tf2_listener/tf_send_yaw.py -> /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/build/my_tf2_listener/build/lib/my_tf2_listener\n'}
+[2.017355] (my_tf2_listener) StdoutLine: {'line': b'copying my_tf2_listener/tf_send_position.py -> /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/build/my_tf2_listener/build/lib/my_tf2_listener\n'}
+[2.017613] (my_tf2_listener) StdoutLine: {'line': b'running install\n'}
+[2.028845] (my_tf2_listener) StderrLine: {'line': b'/home/joao/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[2.028977] (my_tf2_listener) StderrLine: {'line': b'!!\n'}
+[2.029041] (my_tf2_listener) StderrLine: {'line': b'\n'}
+[2.029096] (my_tf2_listener) StderrLine: {'line': b'        ********************************************************************************\n'}
+[2.029149] (my_tf2_listener) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[2.029202] (my_tf2_listener) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[2.029254] (my_tf2_listener) StderrLine: {'line': b'        standards-based tools.\n'}
+[2.029305] (my_tf2_listener) StderrLine: {'line': b'\n'}
+[2.029357] (my_tf2_listener) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[2.029409] (my_tf2_listener) StderrLine: {'line': b'        ********************************************************************************\n'}
+[2.029461] (my_tf2_listener) StderrLine: {'line': b'\n'}
+[2.029513] (my_tf2_listener) StderrLine: {'line': b'!!\n'}
+[2.029564] (my_tf2_listener) StderrLine: {'line': b'  self.initialize_options()\n'}
+[2.034799] (my_tf2_listener) StdoutLine: {'line': b'running install_lib\n'}
+[2.054294] (my_tf2_listener) StdoutLine: {'line': b'copying /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/build/my_tf2_listener/build/lib/my_tf2_listener/tf_send_position.py -> /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/lib/python3.10/site-packages/my_tf2_listener\n'}
+[2.054918] (my_tf2_listener) StdoutLine: {'line': b'byte-compiling /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/lib/python3.10/site-packages/my_tf2_listener/tf_send_position.py to tf_send_position.cpython-310.pyc\n'}
+[2.055809] (my_tf2_listener) StdoutLine: {'line': b'running install_data\n'}
+[2.073513] (my_tf2_listener) StdoutLine: {'line': b'copying resource/my_tf2_listener -> /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/share/ament_index/resource_index/packages\n'}
+[2.073710] (my_tf2_listener) StdoutLine: {'line': b'copying package.xml -> /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/share/my_tf2_listener\n'}
+[2.073812] (my_tf2_listener) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.091818] (my_tf2_listener) StdoutLine: {'line': b"removing '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/lib/python3.10/site-packages/my_tf2_listener-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.092063] (my_tf2_listener) StdoutLine: {'line': b'Copying build/my_tf2_listener/my_tf2_listener.egg-info to /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/lib/python3.10/site-packages/my_tf2_listener-0.0.0-py3.10.egg-info\n'}
+[2.092751] (my_tf2_listener) StdoutLine: {'line': b'running install_scripts\n'}
+[2.104547] (-) TimerEvent: {}
+[2.204776] (-) TimerEvent: {}
+[2.243383] (my_tf2_listener) StdoutLine: {'line': b'Installing tf2_listener script to /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/lib/my_tf2_listener\n'}
+[2.243693] (my_tf2_listener) StdoutLine: {'line': b'Installing tf_send_position script to /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/lib/my_tf2_listener\n'}
+[2.243944] (my_tf2_listener) StdoutLine: {'line': b'Installing tf_send_yaw script to /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/lib/my_tf2_listener\n'}
+[2.244314] (my_tf2_listener) StdoutLine: {'line': b"writing list of installed files to '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/build/my_tf2_listener/install.log'\n"}
+[2.270228] (my_tf2_listener) CommandEnded: {'returncode': 0}
+[2.304902] (-) TimerEvent: {}
+[2.341877] (my_tf2_listener) JobEnded: {'identifier': 'my_tf2_listener', 'rc': 0}
+[2.342543] (-) EventReactorShutdown: {}

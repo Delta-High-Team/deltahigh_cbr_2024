@@ -1,0 +1,1 @@
+/home/joao/cbr-2024/ldrobot-lidar-ros2/build/ldlidar/ament_cmake_core/ldlidarConfig-version.cmake

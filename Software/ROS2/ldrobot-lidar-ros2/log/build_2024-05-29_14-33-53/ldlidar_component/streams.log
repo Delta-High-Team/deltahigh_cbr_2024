@@ -1,0 +1,112 @@
+[0.055s] Invoking command in '/home/joao/cbr-2024/ldrobot-lidar-ros2/build/ldlidar_component': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_component -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_component
+[0.156s] -- The C compiler identification is GNU 11.4.0
+[0.245s] -- The CXX compiler identification is GNU 11.4.0
+[0.264s] -- Detecting C compiler ABI info
+[0.344s] -- Detecting C compiler ABI info - done
+[0.355s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[0.356s] -- Detecting C compile features
+[0.356s] -- Detecting C compile features - done
+[0.361s] -- Detecting CXX compiler ABI info
+[0.485s] -- Detecting CXX compiler ABI info - done
+[0.492s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[0.492s] -- Detecting CXX compile features
+[0.492s] -- Detecting CXX compile features - done
+[0.493s] --  * Release Mode
+[0.493s] -- * Found ROS2 humble
+[0.493s] -- * ROS2 humble is officially supported by this package.
+[0.495s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.777s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.827s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.850s] -- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.887s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.891s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.898s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.910s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.927s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.986s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.988s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.066s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.090s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.132s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.141s] -- Looking for pthread.h
+[1.273s] -- Looking for pthread.h - found
+[1.273s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.397s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.398s] -- Found Threads: TRUE  
+[1.580s] -- Found rclcpp_components: 16.0.9 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.664s] -- Found nav2_util: 1.1.14 (/opt/ros/humble/share/nav2_util/cmake)
+[2.668s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.670s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.670s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.982s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.092s] -- Found diagnostic_msgs: 4.2.3 (/opt/ros/humble/share/diagnostic_msgs/cmake)
+[3.152s] -- Found diagnostic_updater: 3.1.2 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[3.670s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.907s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.910s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.911s] -- Configured cppcheck include dirs: /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_component/include;/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_component/tools/include;/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_component/component/include;/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_component/ldlidar_driver/include/core;/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_component/ldlidar_driver/include/dataprocess;/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_component/ldlidar_driver/include/filter;/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_component/ldlidar_driver/include/logger;/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_component/ldlidar_driver/include/networkcom;/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_component/ldlidar_driver/include/serialcom
+[3.911s] -- Configured cppcheck exclude dirs and/or files: 
+[3.913s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.913s] -- Configured cpplint exclude dirs and/or files: 
+[3.914s] -- Added test 'lint_cmake' to check CMake code style
+[3.917s] -- Added test 'uncrustify' to check C / C++ code style
+[3.917s] -- Configured uncrustify additional arguments: 
+[3.918s] -- Added test 'xmllint' to check XML markup files
+[3.920s] -- Added test 'clang_format' to check C / C++ code style
+[3.988s] -- Configuring done
+[5.122s] -- Generating done
+[5.124s] -- Build files have been written to: /home/joao/cbr-2024/ldrobot-lidar-ros2/build/ldlidar_component
+[5.136s] Invoked command in '/home/joao/cbr-2024/ldrobot-lidar-ros2/build/ldlidar_component' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_component -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_component
+[5.138s] Invoking command in '/home/joao/cbr-2024/ldrobot-lidar-ros2/build/ldlidar_component': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/joao/cbr-2024/ldrobot-lidar-ros2/build/ldlidar_component -- -j8 -l8
+[5.175s] [35m[1mConsolidate compiler generated dependencies of target ldlidar[0m
+[5.348s] [ 40%] [32mBuilding CXX object ldlidar_driver/CMakeFiles/ldlidar.dir/src/dataprocess/lipkg.cpp.o[0m
+[5.348s] [ 40%] [32mBuilding CXX object ldlidar_driver/CMakeFiles/ldlidar.dir/src/core/ldlidar_driver.cpp.o[0m
+[5.348s] [ 40%] [32mBuilding CXX object ldlidar_driver/CMakeFiles/ldlidar.dir/src/filter/tofbf.cpp.o[0m
+[5.349s] [ 50%] [32mBuilding CXX object ldlidar_driver/CMakeFiles/ldlidar.dir/src/logger/log_module.cpp.o[0m
+[5.349s] [ 40%] [32mBuilding CXX object ldlidar_driver/CMakeFiles/ldlidar.dir/src/networkcom/network_socket_interface_linux.cpp.o[0m
+[5.349s] [ 60%] [32mBuilding CXX object ldlidar_driver/CMakeFiles/ldlidar.dir/src/serialcom/serial_interface_linux.cpp.o[0m
+[7.052s] [ 70%] [32m[1mLinking CXX static library libldlidar.a[0m
+[7.124s] [ 70%] Built target ldlidar
+[7.136s] [35m[1mConsolidate compiler generated dependencies of target ldlidar_component[0m
+[7.281s] [ 80%] [32mBuilding CXX object CMakeFiles/ldlidar_component.dir/tools/src/ldlidar_tools.cpp.o[0m
+[7.395s] [ 90%] [32mBuilding CXX object CMakeFiles/ldlidar_component.dir/component/src/ldlidar_component.cpp.o[0m
+[16.468s] [100%] [32m[1mLinking CXX shared library libldlidar_component.so[0m
+[17.599s] [100%] Built target ldlidar_component
+[17.607s] Invoked command in '/home/joao/cbr-2024/ldrobot-lidar-ros2/build/ldlidar_component' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/joao/cbr-2024/ldrobot-lidar-ros2/build/ldlidar_component -- -j8 -l8
+[17.636s] Invoking command in '/home/joao/cbr-2024/ldrobot-lidar-ros2/build/ldlidar_component': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/joao/cbr-2024/ldrobot-lidar-ros2/build/ldlidar_component
+[17.642s] -- Install configuration: "Release"
+[17.642s] -- Execute custom install script
+[17.643s] -- Symlinking: /home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_component/lib/libldlidar_component.so
+[17.650s] -- Symlinking: /home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_component/include/ldlidar_component//defines.hpp
+[17.657s] -- Symlinking: /home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_component/include/ldlidar_component//ldlidar_component.hpp
+[17.664s] -- Symlinking: /home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_component/include/ldlidar_component//ldlidar_tools.hpp
+[17.671s] -- Symlinking: /home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_component/include/ldlidar_component//visibility_control.hpp
+[17.678s] -- Symlinking: /home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_component/include/ldlidar_component//ldlidar_datatype.h
+[17.685s] -- Symlinking: /home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_component/include/ldlidar_component//ldlidar_driver.h
+[17.693s] -- Symlinking: /home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_component/include/ldlidar_component//lipkg.h
+[17.700s] -- Symlinking: /home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_component/include/ldlidar_component//tofbf.h
+[17.707s] -- Symlinking: /home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_component/include/ldlidar_component//log_module.h
+[17.714s] -- Symlinking: /home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_component/include/ldlidar_component//network_socket_interface_linux.h
+[17.720s] -- Symlinking: /home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_component/include/ldlidar_component//serial_interface_linux.h
+[17.727s] -- Symlinking: /home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/environment/library_path.sh
+[17.735s] -- Symlinking: /home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/environment/library_path.dsv
+[17.742s] -- Symlinking: /home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_component/share/ament_index/resource_index/package_run_dependencies/ldlidar_component
+[17.749s] -- Symlinking: /home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_component/share/ament_index/resource_index/parent_prefix_path/ldlidar_component
+[17.756s] -- Symlinking: /home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/environment/ament_prefix_path.sh
+[17.763s] -- Symlinking: /home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/environment/ament_prefix_path.dsv
+[17.770s] -- Symlinking: /home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/environment/path.sh
+[17.777s] -- Symlinking: /home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/environment/path.dsv
+[17.784s] -- Symlinking: /home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/local_setup.bash
+[17.792s] -- Symlinking: /home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/local_setup.sh
+[17.799s] -- Symlinking: /home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/local_setup.zsh
+[17.806s] -- Symlinking: /home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/local_setup.dsv
+[17.812s] -- Symlinking: /home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/package.dsv
+[17.819s] -- Symlinking: /home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_component/share/ament_index/resource_index/packages/ldlidar_component
+[17.825s] -- Symlinking: /home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_component/share/ament_index/resource_index/rclcpp_components/ldlidar_component
+[17.832s] -- Symlinking: /home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/cmake/ament_cmake_export_include_directories-extras.cmake
+[17.839s] -- Symlinking: /home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/cmake/ament_cmake_export_libraries-extras.cmake
+[17.847s] -- Symlinking: /home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/cmake/ament_cmake_export_dependencies-extras.cmake
+[17.854s] -- Symlinking: /home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/cmake/ldlidar_componentConfig.cmake
+[17.862s] -- Symlinking: /home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/cmake/ldlidar_componentConfig-version.cmake
+[17.869s] -- Symlinking: /home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/package.xml
+[17.878s] Invoked command in '/home/joao/cbr-2024/ldrobot-lidar-ros2/build/ldlidar_component' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/joao/cbr-2024/ldrobot-lidar-ros2/build/ldlidar_component

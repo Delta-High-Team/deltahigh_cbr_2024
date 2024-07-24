@@ -1,0 +1,17 @@
+[31mCMake Error at CMakeLists.txt:92 (find_package):
+  By not providing "Findldlidar_component.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "ldlidar_component", but CMake did not find one.
+
+  Could not find a package configuration file provided by "ldlidar_component"
+  with any of the following names:
+
+    ldlidar_componentConfig.cmake
+    ldlidar_component-config.cmake
+
+  Add the installation prefix of "ldlidar_component" to CMAKE_PREFIX_PATH or
+  set "ldlidar_component_DIR" to a directory containing one of the above
+  files.  If "ldlidar_component" provides a separate development package or
+  SDK, be sure it has been installed.
+
+[0m

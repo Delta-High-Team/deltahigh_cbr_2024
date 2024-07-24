@@ -1,0 +1,38 @@
+running egg_info
+writing build/my_tf2_listener/my_tf2_listener.egg-info/PKG-INFO
+writing dependency_links to build/my_tf2_listener/my_tf2_listener.egg-info/dependency_links.txt
+writing entry points to build/my_tf2_listener/my_tf2_listener.egg-info/entry_points.txt
+writing requirements to build/my_tf2_listener/my_tf2_listener.egg-info/requires.txt
+writing top-level names to build/my_tf2_listener/my_tf2_listener.egg-info/top_level.txt
+reading manifest file 'build/my_tf2_listener/my_tf2_listener.egg-info/SOURCES.txt'
+writing manifest file 'build/my_tf2_listener/my_tf2_listener.egg-info/SOURCES.txt'
+running build
+running build_py
+copying my_tf2_listener/tf2_listener.py -> /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/build/my_tf2_listener/build/lib/my_tf2_listener
+copying my_tf2_listener/__init__.py -> /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/build/my_tf2_listener/build/lib/my_tf2_listener
+copying my_tf2_listener/tf_send_odometry.py -> /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/build/my_tf2_listener/build/lib/my_tf2_listener
+running install
+/home/joao/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` directly.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+        ********************************************************************************
+
+!!
+  self.initialize_options()
+running install_lib
+running install_data
+copying resource/my_tf2_listener -> /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/share/ament_index/resource_index/packages
+copying package.xml -> /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/share/my_tf2_listener
+running install_egg_info
+removing '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/lib/python3.10/site-packages/my_tf2_listener-0.0.0-py3.10.egg-info' (and everything under it)
+Copying build/my_tf2_listener/my_tf2_listener.egg-info to /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/lib/python3.10/site-packages/my_tf2_listener-0.0.0-py3.10.egg-info
+running install_scripts
+Installing tf2_listener script to /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/lib/my_tf2_listener
+Installing tf_send_odometry script to /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/lib/my_tf2_listener
+writing list of installed files to '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/build/my_tf2_listener/install.log'

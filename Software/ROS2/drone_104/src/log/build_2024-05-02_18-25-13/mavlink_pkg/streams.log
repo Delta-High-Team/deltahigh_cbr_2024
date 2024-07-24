@@ -1,0 +1,41 @@
+[0.743s] Invoking command in '/home/deltahigh/cbr-2024/drone_104/src/mavlink_pkg': PYTHONPATH=/home/deltahigh/cbr-2024/drone_104/src/build/mavlink_pkg/prefix_override:/home/deltahigh/cbr-2024/drone_104/src/install/mavlink_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/mavlink_pkg build --build-base /home/deltahigh/cbr-2024/drone_104/src/build/mavlink_pkg/build install --record /home/deltahigh/cbr-2024/drone_104/src/build/mavlink_pkg/install.log --single-version-externally-managed install_data
+[1.053s] running egg_info
+[1.055s] creating ../build/mavlink_pkg/mavlink_pkg.egg-info
+[1.055s] writing ../build/mavlink_pkg/mavlink_pkg.egg-info/PKG-INFO
+[1.055s] writing dependency_links to ../build/mavlink_pkg/mavlink_pkg.egg-info/dependency_links.txt
+[1.055s] writing entry points to ../build/mavlink_pkg/mavlink_pkg.egg-info/entry_points.txt
+[1.056s] writing requirements to ../build/mavlink_pkg/mavlink_pkg.egg-info/requires.txt
+[1.056s] writing top-level names to ../build/mavlink_pkg/mavlink_pkg.egg-info/top_level.txt
+[1.056s] writing manifest file '../build/mavlink_pkg/mavlink_pkg.egg-info/SOURCES.txt'
+[1.057s] reading manifest file '../build/mavlink_pkg/mavlink_pkg.egg-info/SOURCES.txt'
+[1.057s] adding license file 'LICENSE'
+[1.058s] writing manifest file '../build/mavlink_pkg/mavlink_pkg.egg-info/SOURCES.txt'
+[1.058s] running build
+[1.058s] running build_py
+[1.059s] creating /home/deltahigh/cbr-2024/drone_104/src/build/mavlink_pkg/build
+[1.059s] creating /home/deltahigh/cbr-2024/drone_104/src/build/mavlink_pkg/build/lib
+[1.059s] creating /home/deltahigh/cbr-2024/drone_104/src/build/mavlink_pkg/build/lib/mavlink_pkg
+[1.059s] copying mavlink_pkg/__init__.py -> /home/deltahigh/cbr-2024/drone_104/src/build/mavlink_pkg/build/lib/mavlink_pkg
+[1.059s] copying mavlink_pkg/comm_test.py -> /home/deltahigh/cbr-2024/drone_104/src/build/mavlink_pkg/build/lib/mavlink_pkg
+[1.059s] copying mavlink_pkg/drone_node.py -> /home/deltahigh/cbr-2024/drone_104/src/build/mavlink_pkg/build/lib/mavlink_pkg
+[1.060s] running install
+[1.060s] running install_lib
+[1.061s] creating /home/deltahigh/cbr-2024/drone_104/src/install/mavlink_pkg/lib/python3.10/site-packages/mavlink_pkg
+[1.062s] copying /home/deltahigh/cbr-2024/drone_104/src/build/mavlink_pkg/build/lib/mavlink_pkg/__init__.py -> /home/deltahigh/cbr-2024/drone_104/src/install/mavlink_pkg/lib/python3.10/site-packages/mavlink_pkg
+[1.062s] copying /home/deltahigh/cbr-2024/drone_104/src/build/mavlink_pkg/build/lib/mavlink_pkg/comm_test.py -> /home/deltahigh/cbr-2024/drone_104/src/install/mavlink_pkg/lib/python3.10/site-packages/mavlink_pkg
+[1.062s] copying /home/deltahigh/cbr-2024/drone_104/src/build/mavlink_pkg/build/lib/mavlink_pkg/drone_node.py -> /home/deltahigh/cbr-2024/drone_104/src/install/mavlink_pkg/lib/python3.10/site-packages/mavlink_pkg
+[1.063s] byte-compiling /home/deltahigh/cbr-2024/drone_104/src/install/mavlink_pkg/lib/python3.10/site-packages/mavlink_pkg/__init__.py to __init__.cpython-310.pyc
+[1.063s] byte-compiling /home/deltahigh/cbr-2024/drone_104/src/install/mavlink_pkg/lib/python3.10/site-packages/mavlink_pkg/comm_test.py to comm_test.cpython-310.pyc
+[1.065s] byte-compiling /home/deltahigh/cbr-2024/drone_104/src/install/mavlink_pkg/lib/python3.10/site-packages/mavlink_pkg/drone_node.py to drone_node.cpython-310.pyc
+[1.066s] running install_data
+[1.067s] creating /home/deltahigh/cbr-2024/drone_104/src/install/mavlink_pkg/share/ament_index
+[1.067s] creating /home/deltahigh/cbr-2024/drone_104/src/install/mavlink_pkg/share/ament_index/resource_index
+[1.067s] creating /home/deltahigh/cbr-2024/drone_104/src/install/mavlink_pkg/share/ament_index/resource_index/packages
+[1.068s] copying resource/mavlink_pkg -> /home/deltahigh/cbr-2024/drone_104/src/install/mavlink_pkg/share/ament_index/resource_index/packages
+[1.068s] copying package.xml -> /home/deltahigh/cbr-2024/drone_104/src/install/mavlink_pkg/share/mavlink_pkg
+[1.068s] running install_egg_info
+[1.071s] Copying ../build/mavlink_pkg/mavlink_pkg.egg-info to /home/deltahigh/cbr-2024/drone_104/src/install/mavlink_pkg/lib/python3.10/site-packages/mavlink_pkg-0.0.0-py3.10.egg-info
+[1.073s] running install_scripts
+[1.096s] Installing drone_node script to /home/deltahigh/cbr-2024/drone_104/src/install/mavlink_pkg/lib/mavlink_pkg
+[1.097s] writing list of installed files to '/home/deltahigh/cbr-2024/drone_104/src/build/mavlink_pkg/install.log'
+[1.128s] Invoked command in '/home/deltahigh/cbr-2024/drone_104/src/mavlink_pkg' returned '0': PYTHONPATH=/home/deltahigh/cbr-2024/drone_104/src/build/mavlink_pkg/prefix_override:/home/deltahigh/cbr-2024/drone_104/src/install/mavlink_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/mavlink_pkg build --build-base /home/deltahigh/cbr-2024/drone_104/src/build/mavlink_pkg/build install --record /home/deltahigh/cbr-2024/drone_104/src/build/mavlink_pkg/install.log --single-version-externally-managed install_data

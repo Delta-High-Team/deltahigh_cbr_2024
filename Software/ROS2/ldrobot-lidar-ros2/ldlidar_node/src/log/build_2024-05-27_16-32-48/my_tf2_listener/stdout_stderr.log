@@ -1,0 +1,22 @@
+running egg_info
+writing ../build/my_tf2_listener/my_tf2_listener.egg-info/PKG-INFO
+writing dependency_links to ../build/my_tf2_listener/my_tf2_listener.egg-info/dependency_links.txt
+writing entry points to ../build/my_tf2_listener/my_tf2_listener.egg-info/entry_points.txt
+writing requirements to ../build/my_tf2_listener/my_tf2_listener.egg-info/requires.txt
+writing top-level names to ../build/my_tf2_listener/my_tf2_listener.egg-info/top_level.txt
+reading manifest file '../build/my_tf2_listener/my_tf2_listener.egg-info/SOURCES.txt'
+writing manifest file '../build/my_tf2_listener/my_tf2_listener.egg-info/SOURCES.txt'
+running build
+running build_py
+copying my_tf2_listener/tf2_listener.py -> /home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/build/my_tf2_listener/build/lib/my_tf2_listener
+running install
+running install_lib
+copying /home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/build/my_tf2_listener/build/lib/my_tf2_listener/tf2_listener.py -> /home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/install/my_tf2_listener/lib/python3.10/site-packages/my_tf2_listener
+byte-compiling /home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/install/my_tf2_listener/lib/python3.10/site-packages/my_tf2_listener/tf2_listener.py to tf2_listener.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/install/my_tf2_listener/lib/python3.10/site-packages/my_tf2_listener-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/my_tf2_listener/my_tf2_listener.egg-info to /home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/install/my_tf2_listener/lib/python3.10/site-packages/my_tf2_listener-0.0.0-py3.10.egg-info
+running install_scripts
+Installing tf2_listener script to /home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/install/my_tf2_listener/lib/my_tf2_listener
+writing list of installed files to '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/build/my_tf2_listener/install.log'

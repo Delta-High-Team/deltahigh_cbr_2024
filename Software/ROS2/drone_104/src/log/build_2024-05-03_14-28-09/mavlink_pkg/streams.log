@@ -1,0 +1,19 @@
+[1.479s] Invoking command in '/home/deltahigh/cbr-2024/drone_104/src/build/mavlink_pkg': PYTHONPATH=/home/deltahigh/cbr-2024/drone_104/src/build/mavlink_pkg/prefix_override:/home/deltahigh/cbr-2024/drone_104/src/install/mavlink_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/deltahigh/cbr-2024/drone_104/src/build/mavlink_pkg/build --no-deps symlink_data
+[1.742s] running develop
+[1.747s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.747s]   warnings.warn(
+[1.912s] running egg_info
+[1.912s] writing mavlink_pkg.egg-info/PKG-INFO
+[1.913s] writing dependency_links to mavlink_pkg.egg-info/dependency_links.txt
+[1.914s] writing entry points to mavlink_pkg.egg-info/entry_points.txt
+[1.915s] writing requirements to mavlink_pkg.egg-info/requires.txt
+[1.917s] writing top-level names to mavlink_pkg.egg-info/top_level.txt
+[1.923s] reading manifest file 'mavlink_pkg.egg-info/SOURCES.txt'
+[1.923s] writing manifest file 'mavlink_pkg.egg-info/SOURCES.txt'
+[1.924s] running build_ext
+[1.924s] Creating /home/deltahigh/cbr-2024/drone_104/src/install/mavlink_pkg/lib/python3.10/site-packages/mavlink-pkg.egg-link (link to .)
+[1.924s] Installing drone_node script to /home/deltahigh/cbr-2024/drone_104/src/install/mavlink_pkg/lib/mavlink_pkg
+[1.924s] 
+[1.924s] Installed /home/deltahigh/cbr-2024/drone_104/src/build/mavlink_pkg
+[1.927s] running symlink_data
+[1.958s] Invoked command in '/home/deltahigh/cbr-2024/drone_104/src/build/mavlink_pkg' returned '0': PYTHONPATH=/home/deltahigh/cbr-2024/drone_104/src/build/mavlink_pkg/prefix_override:/home/deltahigh/cbr-2024/drone_104/src/install/mavlink_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/deltahigh/cbr-2024/drone_104/src/build/mavlink_pkg/build --no-deps symlink_data

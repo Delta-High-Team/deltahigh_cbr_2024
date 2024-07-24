@@ -1,0 +1,99 @@
+[0.000000] (-) TimerEvent: {}
+[0.003368] (my_tf2_listener) JobQueued: {'identifier': 'my_tf2_listener', 'dependencies': OrderedDict()}
+[0.003472] (my_tf2_listener) JobStarted: {'identifier': 'my_tf2_listener'}
+[0.080637] (-) TimerEvent: {}
+[0.181087] (-) TimerEvent: {}
+[0.284551] (-) TimerEvent: {}
+[0.387116] (-) TimerEvent: {}
+[0.492444] (-) TimerEvent: {}
+[0.603711] (-) TimerEvent: {}
+[0.743609] (-) TimerEvent: {}
+[0.867095] (-) TimerEvent: {}
+[1.014544] (-) TimerEvent: {}
+[1.174591] (-) TimerEvent: {}
+[1.389083] (-) TimerEvent: {}
+[1.495546] (-) TimerEvent: {}
+[1.611176] (-) TimerEvent: {}
+[1.728707] (-) TimerEvent: {}
+[1.830038] (-) TimerEvent: {}
+[1.955322] (-) TimerEvent: {}
+[2.059062] (-) TimerEvent: {}
+[2.163959] (-) TimerEvent: {}
+[2.266069] (-) TimerEvent: {}
+[2.374631] (-) TimerEvent: {}
+[2.481546] (-) TimerEvent: {}
+[2.827827] (-) TimerEvent: {}
+[2.932070] (-) TimerEvent: {}
+[3.154630] (-) TimerEvent: {}
+[3.264449] (-) TimerEvent: {}
+[3.415164] (-) TimerEvent: {}
+[3.521978] (-) TimerEvent: {}
+[3.654807] (-) TimerEvent: {}
+[3.759146] (-) TimerEvent: {}
+[3.861483] (-) TimerEvent: {}
+[3.962350] (-) TimerEvent: {}
+[4.065476] (-) TimerEvent: {}
+[4.167791] (-) TimerEvent: {}
+[4.269472] (-) TimerEvent: {}
+[4.374784] (-) TimerEvent: {}
+[4.477580] (-) TimerEvent: {}
+[4.578856] (-) TimerEvent: {}
+[4.681086] (-) TimerEvent: {}
+[4.782177] (-) TimerEvent: {}
+[4.909795] (-) TimerEvent: {}
+[5.056263] (-) TimerEvent: {}
+[5.348490] (-) TimerEvent: {}
+[5.503027] (-) TimerEvent: {}
+[5.612056] (-) TimerEvent: {}
+[5.715359] (-) TimerEvent: {}
+[5.816473] (-) TimerEvent: {}
+[5.917176] (-) TimerEvent: {}
+[6.019365] (-) TimerEvent: {}
+[6.120603] (-) TimerEvent: {}
+[6.223259] (-) TimerEvent: {}
+[6.350704] (-) TimerEvent: {}
+[6.460772] (-) TimerEvent: {}
+[6.566740] (my_tf2_listener) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', 'build/my_tf2_listener', 'build', '--build-base', '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/build/my_tf2_listener/build', 'install', '--record', '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/build/my_tf2_listener/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'deltahigh', 'LC_TIME': 'pt_BR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/deltahigh/ldrobot-lidar-ros2/install/ldlidar_component/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/deltahigh', 'OLDPWD': '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'pt_BR.UTF-8', 'MANAGERPID': '2476', 'LC_CTYPE': 'pt_BR.UTF-8', 'SYSTEMD_EXEC_PID': '2636', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '6638', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install:/home/deltahigh/ldrobot-lidar-ros2/install:/home/deltahigh/cbr-2024/cbr-2024/drone_108/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'deltahigh', 'JOURNAL_STREAM': '8:25353', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'deltahigh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/deltahigh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/DeltaHigh:@/tmp/.ICE-unix/2605,unix/DeltaHigh:/tmp/.ICE-unix/2605', 'INVOCATION_ID': 'cb71bcd8bf5e43c9b73e7b3f69466287', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'pt_BR.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'pt_BR.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.OTOSO2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener:/home/deltahigh/ldrobot-lidar-ros2/install/ldlidar:/home/deltahigh/ldrobot-lidar-ros2/install/ldlidar_node:/home/deltahigh/ldrobot-lidar-ros2/install/ldlidar_component:/home/deltahigh/cbr-2024/cbr-2024/drone_108/install/mavlink_pkg:/home/deltahigh/cbr-2024/cbr-2024/drone_108/install/face_tracking:/home/deltahigh/cbr-2024/cbr-2024/drone_108/install/camera_test:/home/deltahigh/cbr-2024/cbr-2024/drone_108/install/camera_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'pt_BR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:4a171089-2a99-4454-8017-6aaabc880ab3', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pt_BR.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'pt_BR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/build/my_tf2_listener', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/build/my_tf2_listener/prefix_override:/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/lib/python3.10/site-packages:/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/lib/python3.10/site-packages:/home/deltahigh/cbr-2024/cbr-2024/drone_108/install/mavlink_pkg/lib/python3.10/site-packages:/home/deltahigh/cbr-2024/cbr-2024/drone_108/install/face_tracking/lib/python3.10/site-packages:/home/deltahigh/cbr-2024/cbr-2024/drone_108/install/camera_test/lib/python3.10/site-packages:/home/deltahigh/cbr-2024/cbr-2024/drone_108/install/camera_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'pt_BR.UTF-8', 'LC_PAPER': 'pt_BR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/deltahigh/ldrobot-lidar-ros2/install/ldlidar:/home/deltahigh/ldrobot-lidar-ros2/install/ldlidar_node:/home/deltahigh/ldrobot-lidar-ros2/install/ldlidar_component:/home/deltahigh/cbr-2024/cbr-2024/drone_108/install/camera_pkg'}, 'shell': False}
+[6.612760] (-) TimerEvent: {}
+[6.717105] (-) TimerEvent: {}
+[6.819258] (-) TimerEvent: {}
+[6.924904] (-) TimerEvent: {}
+[7.032307] (-) TimerEvent: {}
+[7.144311] (-) TimerEvent: {}
+[7.246799] (-) TimerEvent: {}
+[7.348613] (-) TimerEvent: {}
+[7.450329] (-) TimerEvent: {}
+[7.555390] (-) TimerEvent: {}
+[7.659152] (-) TimerEvent: {}
+[7.762518] (-) TimerEvent: {}
+[7.861837] (my_tf2_listener) StdoutLine: {'line': b'running egg_info\n'}
+[7.866525] (-) TimerEvent: {}
+[7.870824] (my_tf2_listener) StdoutLine: {'line': b'writing build/my_tf2_listener/my_tf2_listener.egg-info/PKG-INFO\n'}
+[7.871088] (my_tf2_listener) StdoutLine: {'line': b'writing dependency_links to build/my_tf2_listener/my_tf2_listener.egg-info/dependency_links.txt\n'}
+[7.871546] (my_tf2_listener) StdoutLine: {'line': b'writing entry points to build/my_tf2_listener/my_tf2_listener.egg-info/entry_points.txt\n'}
+[7.874034] (my_tf2_listener) StdoutLine: {'line': b'writing requirements to build/my_tf2_listener/my_tf2_listener.egg-info/requires.txt\n'}
+[7.874217] (my_tf2_listener) StdoutLine: {'line': b'writing top-level names to build/my_tf2_listener/my_tf2_listener.egg-info/top_level.txt\n'}
+[7.879199] (my_tf2_listener) StdoutLine: {'line': b"reading manifest file 'build/my_tf2_listener/my_tf2_listener.egg-info/SOURCES.txt'\n"}
+[7.879344] (my_tf2_listener) StdoutLine: {'line': b"writing manifest file 'build/my_tf2_listener/my_tf2_listener.egg-info/SOURCES.txt'\n"}
+[7.879422] (my_tf2_listener) StdoutLine: {'line': b'running build\n'}
+[7.879493] (my_tf2_listener) StdoutLine: {'line': b'running build_py\n'}
+[7.879562] (my_tf2_listener) StdoutLine: {'line': b'copying my_tf2_listener/tf_send_odometry.py -> /home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/build/my_tf2_listener/build/lib/my_tf2_listener\n'}
+[7.879637] (my_tf2_listener) StdoutLine: {'line': b'running install\n'}
+[7.879707] (my_tf2_listener) StdoutLine: {'line': b'running install_lib\n'}
+[7.885989] (my_tf2_listener) StdoutLine: {'line': b'copying /home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/build/my_tf2_listener/build/lib/my_tf2_listener/tf_send_odometry.py -> /home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/lib/python3.10/site-packages/my_tf2_listener\n'}
+[7.890119] (my_tf2_listener) StdoutLine: {'line': b'byte-compiling /home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/lib/python3.10/site-packages/my_tf2_listener/tf_send_odometry.py to tf_send_odometry.cpython-310.pyc\n'}
+[7.890338] (my_tf2_listener) StdoutLine: {'line': b'running install_data\n'}
+[7.890421] (my_tf2_listener) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.896281] (my_tf2_listener) StdoutLine: {'line': b"removing '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/lib/python3.10/site-packages/my_tf2_listener-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.898119] (my_tf2_listener) StdoutLine: {'line': b'Copying build/my_tf2_listener/my_tf2_listener.egg-info to /home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/lib/python3.10/site-packages/my_tf2_listener-0.0.0-py3.10.egg-info\n'}
+[7.902208] (my_tf2_listener) StdoutLine: {'line': b'running install_scripts\n'}
+[7.967108] (-) TimerEvent: {}
+[8.009117] (my_tf2_listener) StdoutLine: {'line': b'Installing tf2_listener script to /home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/lib/my_tf2_listener\n'}
+[8.010604] (my_tf2_listener) StdoutLine: {'line': b'Installing tf_send_odometry script to /home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/lib/my_tf2_listener\n'}
+[8.010986] (my_tf2_listener) StdoutLine: {'line': b"writing list of installed files to '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/build/my_tf2_listener/install.log'\n"}
+[8.071029] (-) TimerEvent: {}
+[8.122686] (my_tf2_listener) CommandEnded: {'returncode': 0}
+[8.171487] (-) TimerEvent: {}
+[8.218882] (my_tf2_listener) JobEnded: {'identifier': 'my_tf2_listener', 'rc': 0}
+[8.280068] (-) TimerEvent: {}
+[8.280420] (-) EventReactorShutdown: {}

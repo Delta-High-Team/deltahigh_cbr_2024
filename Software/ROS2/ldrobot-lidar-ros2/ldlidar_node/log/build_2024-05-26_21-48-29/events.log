@@ -1,0 +1,178 @@
+[0.000000] (-) TimerEvent: {}
+[0.002224] (ldlidar_node) JobQueued: {'identifier': 'ldlidar_node', 'dependencies': OrderedDict()}
+[0.002353] (ldlidar_node) JobStarted: {'identifier': 'ldlidar_node'}
+[0.101739] (-) TimerEvent: {}
+[0.113845] (ldlidar_node) JobProgress: {'identifier': 'ldlidar_node', 'progress': 'cmake'}
+[0.115014] (ldlidar_node) Command: {'cmd': ['/usr/bin/cmake', '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node', '-DCMAKE_BUILD_TYPE=Release', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node'], 'cwd': '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/build/ldlidar_node', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'deltahigh'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/deltahigh/ldrobot-lidar-ros2/install/ldlidar_component/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/deltahigh'), ('OLDPWD', '/home/deltahigh/ldrobot-lidar-ros2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1355'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '1516'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4120'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/deltahigh/ldrobot-lidar-ros2/install:/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/install:/home/deltahigh/cbr-2024/cbr-2024/drone_108/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'deltahigh'), ('JOURNAL_STREAM', '8:24370'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'deltahigh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/deltahigh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/DeltaHigh:@/tmp/.ICE-unix/1483,unix/DeltaHigh:/tmp/.ICE-unix/1483'), ('INVOCATION_ID', '51bf166babd84735a416f3e001076313'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LJ8RO2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node:/home/deltahigh/ldrobot-lidar-ros2/install/ldlidar:/home/deltahigh/ldrobot-lidar-ros2/install/ldlidar_node:/home/deltahigh/ldrobot-lidar-ros2/install/ldlidar_component:/home/deltahigh/cbr-2024/cbr-2024/drone_108/install/mavlink_pkg:/home/deltahigh/cbr-2024/cbr-2024/drone_108/install/face_tracking:/home/deltahigh/cbr-2024/cbr-2024/drone_108/install/camera_test:/home/deltahigh/cbr-2024/cbr-2024/drone_108/install/camera_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:cb75d1e0-043f-47dd-b639-54eda8d21f63'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/build/ldlidar_node'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/deltahigh/cbr-2024/cbr-2024/drone_108/install/mavlink_pkg/lib/python3.10/site-packages:/home/deltahigh/cbr-2024/cbr-2024/drone_108/install/face_tracking/lib/python3.10/site-packages:/home/deltahigh/cbr-2024/cbr-2024/drone_108/install/camera_test/lib/python3.10/site-packages:/home/deltahigh/cbr-2024/cbr-2024/drone_108/install/camera_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node:/home/deltahigh/ldrobot-lidar-ros2/install/ldlidar:/home/deltahigh/ldrobot-lidar-ros2/install/ldlidar_node:/home/deltahigh/ldrobot-lidar-ros2/install/ldlidar_component:/home/deltahigh/cbr-2024/cbr-2024/drone_108/install/camera_pkg:/home/deltahigh/cbr-2024/cbr-2024/drone_108/install/mavlink_pkg:/home/deltahigh/cbr-2024/cbr-2024/drone_108/install/face_tracking:/home/deltahigh/cbr-2024/cbr-2024/drone_108/install/camera_test:/opt/ros/humble')]), 'shell': False}
+[0.202015] (-) TimerEvent: {}
+[0.211700] (ldlidar_node) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.298468] (ldlidar_node) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.302954] (-) TimerEvent: {}
+[0.308762] (ldlidar_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.403625] (-) TimerEvent: {}
+[0.437572] (ldlidar_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.450217] (ldlidar_node) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.450391] (ldlidar_node) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.450634] (ldlidar_node) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.455204] (ldlidar_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.503974] (-) TimerEvent: {}
+[0.585198] (ldlidar_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.593359] (ldlidar_node) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.594871] (ldlidar_node) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.595058] (ldlidar_node) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.595463] (ldlidar_node) StdoutLine: {'line': b'--  * Release Mode\n'}
+[0.595563] (ldlidar_node) StdoutLine: {'line': b'-- * Found ROS2 humble\n'}
+[0.595621] (ldlidar_node) StdoutLine: {'line': b'-- * ROS2 humble is officially supported by this package.\n'}
+[0.597530] (ldlidar_node) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.605416] (-) TimerEvent: {}
+[0.759863] (-) TimerEvent: {}
+[0.869712] (-) TimerEvent: {}
+[0.878118] (ldlidar_node) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.956023] (ldlidar_node) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.970146] (-) TimerEvent: {}
+[1.021017] (ldlidar_node) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.072337] (-) TimerEvent: {}
+[1.073676] (ldlidar_node) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.082699] (ldlidar_node) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.092924] (ldlidar_node) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.108711] (ldlidar_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.134928] (ldlidar_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.172930] (-) TimerEvent: {}
+[1.221867] (ldlidar_node) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.226864] (ldlidar_node) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[1.266065] (ldlidar_node) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[1.273395] (-) TimerEvent: {}
+[1.280206] (ldlidar_node) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.373667] (-) TimerEvent: {}
+[1.405076] (ldlidar_node) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.409636] (ldlidar_node) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.473963] (-) TimerEvent: {}
+[1.536816] (ldlidar_node) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.538344] (ldlidar_node) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.576834] (-) TimerEvent: {}
+[1.680791] (-) TimerEvent: {}
+[1.736415] (ldlidar_node) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.9 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[1.782310] (-) TimerEvent: {}
+[1.824122] (ldlidar_node) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[1.877673] (ldlidar_node) StdoutLine: {'line': b'-- Found ldlidar_component: 0.2.0 (/home/deltahigh/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/cmake)\n'}
+[1.884346] (-) TimerEvent: {}
+[1.988673] (-) TimerEvent: {}
+[2.089104] (-) TimerEvent: {}
+[2.192096] (-) TimerEvent: {}
+[2.294383] (-) TimerEvent: {}
+[2.407501] (-) TimerEvent: {}
+[2.510450] (-) TimerEvent: {}
+[2.612535] (-) TimerEvent: {}
+[2.714744] (-) TimerEvent: {}
+[2.845396] (-) TimerEvent: {}
+[2.938049] (ldlidar_node) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[2.939252] (ldlidar_node) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[2.939350] (ldlidar_node) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.951346] (-) TimerEvent: {}
+[3.087275] (-) TimerEvent: {}
+[3.188260] (-) TimerEvent: {}
+[3.290608] (-) TimerEvent: {}
+[3.395029] (-) TimerEvent: {}
+[3.546974] (-) TimerEvent: {}
+[3.684922] (-) TimerEvent: {}
+[3.786723] (-) TimerEvent: {}
+[3.897706] (-) TimerEvent: {}
+[4.002367] (-) TimerEvent: {}
+[4.116928] (-) TimerEvent: {}
+[4.219483] (-) TimerEvent: {}
+[4.237878] (ldlidar_node) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.320753] (-) TimerEvent: {}
+[4.386526] (ldlidar_node) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[4.421585] (-) TimerEvent: {}
+[4.424224] (ldlidar_node) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[4.430409] (ldlidar_node) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[4.430977] (ldlidar_node) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.431086] (ldlidar_node) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[4.431147] (ldlidar_node) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[4.461963] (ldlidar_node) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[4.476031] (ldlidar_node) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[4.480678] (ldlidar_node) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.481718] (ldlidar_node) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[4.481836] (ldlidar_node) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.486453] (ldlidar_node) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[4.486617] (ldlidar_node) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[4.488125] (ldlidar_node) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.490184] (ldlidar_node) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.492807] (ldlidar_node) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[4.499571] (ldlidar_node) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.499731] (ldlidar_node) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.501660] (ldlidar_node) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.504014] (ldlidar_node) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.539485] (-) TimerEvent: {}
+[4.541803] (ldlidar_node) StdoutLine: {'line': b'-- Generating done\n'}
+[4.545894] (ldlidar_node) StdoutLine: {'line': b'-- Build files have been written to: /home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/build/ldlidar_node\n'}
+[4.560794] (ldlidar_node) CommandEnded: {'returncode': 0}
+[4.561726] (ldlidar_node) JobProgress: {'identifier': 'ldlidar_node', 'progress': 'build'}
+[4.561762] (ldlidar_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/build/ldlidar_node', '--', '-j3', '-l3'], 'cwd': '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/build/ldlidar_node', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'deltahigh'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/deltahigh/ldrobot-lidar-ros2/install/ldlidar_component/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/deltahigh'), ('OLDPWD', '/home/deltahigh/ldrobot-lidar-ros2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1355'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '1516'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4120'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/deltahigh/ldrobot-lidar-ros2/install:/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/install:/home/deltahigh/cbr-2024/cbr-2024/drone_108/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'deltahigh'), ('JOURNAL_STREAM', '8:24370'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'deltahigh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/deltahigh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/DeltaHigh:@/tmp/.ICE-unix/1483,unix/DeltaHigh:/tmp/.ICE-unix/1483'), ('INVOCATION_ID', '51bf166babd84735a416f3e001076313'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LJ8RO2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node:/home/deltahigh/ldrobot-lidar-ros2/install/ldlidar:/home/deltahigh/ldrobot-lidar-ros2/install/ldlidar_node:/home/deltahigh/ldrobot-lidar-ros2/install/ldlidar_component:/home/deltahigh/cbr-2024/cbr-2024/drone_108/install/mavlink_pkg:/home/deltahigh/cbr-2024/cbr-2024/drone_108/install/face_tracking:/home/deltahigh/cbr-2024/cbr-2024/drone_108/install/camera_test:/home/deltahigh/cbr-2024/cbr-2024/drone_108/install/camera_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:cb75d1e0-043f-47dd-b639-54eda8d21f63'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/build/ldlidar_node'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/deltahigh/cbr-2024/cbr-2024/drone_108/install/mavlink_pkg/lib/python3.10/site-packages:/home/deltahigh/cbr-2024/cbr-2024/drone_108/install/face_tracking/lib/python3.10/site-packages:/home/deltahigh/cbr-2024/cbr-2024/drone_108/install/camera_test/lib/python3.10/site-packages:/home/deltahigh/cbr-2024/cbr-2024/drone_108/install/camera_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node:/home/deltahigh/ldrobot-lidar-ros2/install/ldlidar:/home/deltahigh/ldrobot-lidar-ros2/install/ldlidar_node:/home/deltahigh/ldrobot-lidar-ros2/install/ldlidar_component:/home/deltahigh/cbr-2024/cbr-2024/drone_108/install/camera_pkg:/home/deltahigh/cbr-2024/cbr-2024/drone_108/install/mavlink_pkg:/home/deltahigh/cbr-2024/cbr-2024/drone_108/install/face_tracking:/home/deltahigh/cbr-2024/cbr-2024/drone_108/install/camera_test:/opt/ros/humble')]), 'shell': False}
+[4.640314] (-) TimerEvent: {}
+[4.662476] (ldlidar_node) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ldlidar_node.dir/src/ldlidar_container_node.cpp.o\x1b[0m\n'}
+[4.869375] (-) TimerEvent: {}
+[5.493475] (-) TimerEvent: {}
+[5.595743] (-) TimerEvent: {}
+[5.701556] (-) TimerEvent: {}
+[5.802701] (-) TimerEvent: {}
+[5.904657] (-) TimerEvent: {}
+[6.868289] (-) TimerEvent: {}
+[7.039978] (-) TimerEvent: {}
+[7.868958] (-) TimerEvent: {}
+[8.040161] (-) TimerEvent: {}
+[8.873432] (-) TimerEvent: {}
+[9.748782] (-) TimerEvent: {}
+[9.851647] (-) TimerEvent: {}
+[9.852773] (ldlidar_node) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ldlidar_node\x1b[0m\n'}
+[9.958827] (-) TimerEvent: {}
+[10.067602] (-) TimerEvent: {}
+[10.174270] (-) TimerEvent: {}
+[10.277655] (-) TimerEvent: {}
+[10.383928] (-) TimerEvent: {}
+[10.469408] (ldlidar_node) StdoutLine: {'line': b'[100%] Built target ldlidar_node\n'}
+[10.488815] (-) TimerEvent: {}
+[10.490321] (ldlidar_node) CommandEnded: {'returncode': 0}
+[10.589491] (-) TimerEvent: {}
+[10.604450] (ldlidar_node) JobProgress: {'identifier': 'ldlidar_node', 'progress': 'install'}
+[10.675206] (ldlidar_node) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/build/ldlidar_node'], 'cwd': '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/build/ldlidar_node', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'deltahigh'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/deltahigh/ldrobot-lidar-ros2/install/ldlidar_component/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/deltahigh'), ('OLDPWD', '/home/deltahigh/ldrobot-lidar-ros2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1355'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '1516'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4120'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/deltahigh/ldrobot-lidar-ros2/install:/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/install:/home/deltahigh/cbr-2024/cbr-2024/drone_108/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'deltahigh'), ('JOURNAL_STREAM', '8:24370'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'deltahigh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/deltahigh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/DeltaHigh:@/tmp/.ICE-unix/1483,unix/DeltaHigh:/tmp/.ICE-unix/1483'), ('INVOCATION_ID', '51bf166babd84735a416f3e001076313'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LJ8RO2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node:/home/deltahigh/ldrobot-lidar-ros2/install/ldlidar:/home/deltahigh/ldrobot-lidar-ros2/install/ldlidar_node:/home/deltahigh/ldrobot-lidar-ros2/install/ldlidar_component:/home/deltahigh/cbr-2024/cbr-2024/drone_108/install/mavlink_pkg:/home/deltahigh/cbr-2024/cbr-2024/drone_108/install/face_tracking:/home/deltahigh/cbr-2024/cbr-2024/drone_108/install/camera_test:/home/deltahigh/cbr-2024/cbr-2024/drone_108/install/camera_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:cb75d1e0-043f-47dd-b639-54eda8d21f63'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/build/ldlidar_node'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/deltahigh/cbr-2024/cbr-2024/drone_108/install/mavlink_pkg/lib/python3.10/site-packages:/home/deltahigh/cbr-2024/cbr-2024/drone_108/install/face_tracking/lib/python3.10/site-packages:/home/deltahigh/cbr-2024/cbr-2024/drone_108/install/camera_test/lib/python3.10/site-packages:/home/deltahigh/cbr-2024/cbr-2024/drone_108/install/camera_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node:/home/deltahigh/ldrobot-lidar-ros2/install/ldlidar:/home/deltahigh/ldrobot-lidar-ros2/install/ldlidar_node:/home/deltahigh/ldrobot-lidar-ros2/install/ldlidar_component:/home/deltahigh/cbr-2024/cbr-2024/drone_108/install/camera_pkg:/home/deltahigh/cbr-2024/cbr-2024/drone_108/install/mavlink_pkg:/home/deltahigh/cbr-2024/cbr-2024/drone_108/install/face_tracking:/home/deltahigh/cbr-2024/cbr-2024/drone_108/install/camera_test:/opt/ros/humble')]), 'shell': False}
+[10.690481] (-) TimerEvent: {}
+[10.722510] (ldlidar_node) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[10.723081] (ldlidar_node) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[10.725804] (ldlidar_node) StdoutLine: {'line': b'-- Symlinking: /home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node/lib/ldlidar_node/ldlidar_node\n'}
+[10.754003] (ldlidar_node) StdoutLine: {'line': b'-- Symlinking: /home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node/share/ldlidar_node/params/ldlidar.yaml\n'}
+[10.773033] (ldlidar_node) StdoutLine: {'line': b'-- Symlinking: /home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node/share/ldlidar_node/params/lifecycle_mgr.yaml\n'}
+[10.788506] (ldlidar_node) StdoutLine: {'line': b'-- Symlinking: /home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node/share/ldlidar_node/params/lifecycle_mgr_slam.yaml\n'}
+[10.790645] (-) TimerEvent: {}
+[10.802422] (ldlidar_node) StdoutLine: {'line': b'-- Symlinking: /home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node/share/ldlidar_node/params/slam_toolbox.yaml\n'}
+[10.820818] (ldlidar_node) StdoutLine: {'line': b'-- Symlinking: /home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node/share/ldlidar_node/config/ldlidar.rviz\n'}
+[10.852039] (ldlidar_node) StdoutLine: {'line': b'-- Symlinking: /home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node/share/ldlidar_node/config/ldlidar_slam.rviz\n'}
+[10.868448] (ldlidar_node) StdoutLine: {'line': b'-- Symlinking: /home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node/share/ldlidar_node/urdf/ldlidar_descr.urdf.xml\n'}
+[10.883121] (ldlidar_node) StdoutLine: {'line': b'-- Symlinking: /home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node/share/ldlidar_node/urdf/model/LD19.stl\n'}
+[10.891306] (-) TimerEvent: {}
+[10.896055] (ldlidar_node) StdoutLine: {'line': b'-- Symlinking: /home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node/share/ldlidar_node/launch/ldlidar.launch.py\n'}
+[10.908775] (ldlidar_node) StdoutLine: {'line': b'-- Symlinking: /home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node/share/ldlidar_node/launch/ldlidar_rviz2.launch.py\n'}
+[10.921020] (ldlidar_node) StdoutLine: {'line': b'-- Symlinking: /home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node/share/ldlidar_node/launch/ldlidar_slam.launch.py\n'}
+[10.950513] (ldlidar_node) StdoutLine: {'line': b'-- Symlinking: /home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node/share/ldlidar_node/launch/ldlidar_with_mgr.launch.py\n'}
+[10.965922] (ldlidar_node) StdoutLine: {'line': b'-- Symlinking: /home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node/share/ament_index/resource_index/package_run_dependencies/ldlidar_node\n'}
+[10.983407] (ldlidar_node) StdoutLine: {'line': b'-- Symlinking: /home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node/share/ament_index/resource_index/parent_prefix_path/ldlidar_node\n'}
+[10.995504] (-) TimerEvent: {}
+[11.000001] (ldlidar_node) StdoutLine: {'line': b'-- Symlinking: /home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node/share/ldlidar_node/environment/ament_prefix_path.sh\n'}
+[11.012931] (ldlidar_node) StdoutLine: {'line': b'-- Symlinking: /home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node/share/ldlidar_node/environment/ament_prefix_path.dsv\n'}
+[11.029790] (ldlidar_node) StdoutLine: {'line': b'-- Symlinking: /home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node/share/ldlidar_node/environment/path.sh\n'}
+[11.047486] (ldlidar_node) StdoutLine: {'line': b'-- Symlinking: /home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node/share/ldlidar_node/environment/path.dsv\n'}
+[11.063992] (ldlidar_node) StdoutLine: {'line': b'-- Symlinking: /home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node/share/ldlidar_node/local_setup.bash\n'}
+[11.077994] (ldlidar_node) StdoutLine: {'line': b'-- Symlinking: /home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node/share/ldlidar_node/local_setup.sh\n'}
+[11.094391] (ldlidar_node) StdoutLine: {'line': b'-- Symlinking: /home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node/share/ldlidar_node/local_setup.zsh\n'}
+[11.096183] (-) TimerEvent: {}
+[11.109220] (ldlidar_node) StdoutLine: {'line': b'-- Symlinking: /home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node/share/ldlidar_node/local_setup.dsv\n'}
+[11.127179] (ldlidar_node) StdoutLine: {'line': b'-- Symlinking: /home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node/share/ldlidar_node/package.dsv\n'}
+[11.146352] (ldlidar_node) StdoutLine: {'line': b'-- Symlinking: /home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node/share/ament_index/resource_index/packages/ldlidar_node\n'}
+[11.162723] (ldlidar_node) StdoutLine: {'line': b'-- Symlinking: /home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node/share/ldlidar_node/cmake/ldlidar_nodeConfig.cmake\n'}
+[11.176394] (ldlidar_node) StdoutLine: {'line': b'-- Symlinking: /home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node/share/ldlidar_node/cmake/ldlidar_nodeConfig-version.cmake\n'}
+[11.190792] (ldlidar_node) StdoutLine: {'line': b'-- Symlinking: /home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node/share/ldlidar_node/package.xml\n'}
+[11.197353] (-) TimerEvent: {}
+[11.208411] (ldlidar_node) CommandEnded: {'returncode': 0}
+[11.297728] (-) TimerEvent: {}
+[11.307603] (ldlidar_node) JobEnded: {'identifier': 'ldlidar_node', 'rc': 0}
+[11.310042] (-) EventReactorShutdown: {}

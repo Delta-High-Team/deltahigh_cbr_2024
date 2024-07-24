@@ -1,0 +1,44 @@
+[0.951s] Invoking command in '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener': PYTHONPATH=/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/build/my_tf2_listener/prefix_override:/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/my_tf2_listener build --build-base /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/build/my_tf2_listener/build install --record /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/build/my_tf2_listener/install.log --single-version-externally-managed
+[1.172s] running egg_info
+[1.189s] writing build/my_tf2_listener/my_tf2_listener.egg-info/PKG-INFO
+[1.189s] writing dependency_links to build/my_tf2_listener/my_tf2_listener.egg-info/dependency_links.txt
+[1.189s] writing entry points to build/my_tf2_listener/my_tf2_listener.egg-info/entry_points.txt
+[1.189s] writing requirements to build/my_tf2_listener/my_tf2_listener.egg-info/requires.txt
+[1.190s] writing top-level names to build/my_tf2_listener/my_tf2_listener.egg-info/top_level.txt
+[1.225s] reading manifest file 'build/my_tf2_listener/my_tf2_listener.egg-info/SOURCES.txt'
+[1.226s] writing manifest file 'build/my_tf2_listener/my_tf2_listener.egg-info/SOURCES.txt'
+[1.226s] running build
+[1.226s] running build_py
+[1.227s] copying my_tf2_listener/tf2_listener.py -> /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/build/my_tf2_listener/build/lib/my_tf2_listener
+[1.227s] copying my_tf2_listener/__init__.py -> /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/build/my_tf2_listener/build/lib/my_tf2_listener
+[1.227s] copying my_tf2_listener/tf_send_yaw.py -> /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/build/my_tf2_listener/build/lib/my_tf2_listener
+[1.227s] copying my_tf2_listener/tf_send_position.py -> /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/build/my_tf2_listener/build/lib/my_tf2_listener
+[1.227s] running install
+[1.227s] /home/joao/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[1.228s] !!
+[1.228s] 
+[1.228s]         ********************************************************************************
+[1.228s]         Please avoid running ``setup.py`` directly.
+[1.228s]         Instead, use pypa/build, pypa/installer or other
+[1.228s]         standards-based tools.
+[1.228s] 
+[1.228s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[1.228s]         ********************************************************************************
+[1.228s] 
+[1.228s] !!
+[1.228s]   self.initialize_options()
+[1.234s] running install_lib
+[1.252s] copying /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/build/my_tf2_listener/build/lib/my_tf2_listener/tf_send_yaw.py -> /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/lib/python3.10/site-packages/my_tf2_listener
+[1.252s] byte-compiling /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/lib/python3.10/site-packages/my_tf2_listener/tf_send_yaw.py to tf_send_yaw.cpython-310.pyc
+[1.253s] running install_data
+[1.270s] copying resource/my_tf2_listener -> /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/share/ament_index/resource_index/packages
+[1.270s] copying package.xml -> /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/share/my_tf2_listener
+[1.271s] running install_egg_info
+[1.289s] removing '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/lib/python3.10/site-packages/my_tf2_listener-0.0.0-py3.10.egg-info' (and everything under it)
+[1.289s] Copying build/my_tf2_listener/my_tf2_listener.egg-info to /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/lib/python3.10/site-packages/my_tf2_listener-0.0.0-py3.10.egg-info
+[1.290s] running install_scripts
+[1.438s] Installing tf2_listener script to /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/lib/my_tf2_listener
+[1.439s] Installing tf_send_position script to /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/lib/my_tf2_listener
+[1.439s] Installing tf_send_yaw script to /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/lib/my_tf2_listener
+[1.439s] writing list of installed files to '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/build/my_tf2_listener/install.log'
+[1.465s] Invoked command in '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener' returned '0': PYTHONPATH=/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/build/my_tf2_listener/prefix_override:/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/my_tf2_listener build --build-base /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/build/my_tf2_listener/build install --record /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/build/my_tf2_listener/install.log --single-version-externally-managed

@@ -1,0 +1,1 @@
+/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_component/include/visibility_control.hpp

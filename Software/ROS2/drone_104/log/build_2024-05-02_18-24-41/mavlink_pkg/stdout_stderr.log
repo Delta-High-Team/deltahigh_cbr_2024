@@ -1,0 +1,29 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+Removing /home/deltahigh/cbr-2024/drone_104/install/mavlink_pkg/lib/python3.10/site-packages/mavlink-pkg.egg-link (link to .)
+running egg_info
+writing ../../build/mavlink_pkg/mavlink_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/mavlink_pkg/mavlink_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/mavlink_pkg/mavlink_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/mavlink_pkg/mavlink_pkg.egg-info/requires.txt
+writing top-level names to ../../build/mavlink_pkg/mavlink_pkg.egg-info/top_level.txt
+reading manifest file '../../build/mavlink_pkg/mavlink_pkg.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/mavlink_pkg/mavlink_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+copying mavlink_pkg/comm_test.py -> /home/deltahigh/cbr-2024/drone_104/build/mavlink_pkg/build/lib/mavlink_pkg
+copying mavlink_pkg/drone_node.py -> /home/deltahigh/cbr-2024/drone_104/build/mavlink_pkg/build/lib/mavlink_pkg
+running install
+running install_lib
+creating /home/deltahigh/cbr-2024/drone_104/install/mavlink_pkg/lib/python3.10/site-packages/mavlink_pkg
+copying /home/deltahigh/cbr-2024/drone_104/build/mavlink_pkg/build/lib/mavlink_pkg/__init__.py -> /home/deltahigh/cbr-2024/drone_104/install/mavlink_pkg/lib/python3.10/site-packages/mavlink_pkg
+copying /home/deltahigh/cbr-2024/drone_104/build/mavlink_pkg/build/lib/mavlink_pkg/comm_test.py -> /home/deltahigh/cbr-2024/drone_104/install/mavlink_pkg/lib/python3.10/site-packages/mavlink_pkg
+copying /home/deltahigh/cbr-2024/drone_104/build/mavlink_pkg/build/lib/mavlink_pkg/drone_node.py -> /home/deltahigh/cbr-2024/drone_104/install/mavlink_pkg/lib/python3.10/site-packages/mavlink_pkg
+byte-compiling /home/deltahigh/cbr-2024/drone_104/install/mavlink_pkg/lib/python3.10/site-packages/mavlink_pkg/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/deltahigh/cbr-2024/drone_104/install/mavlink_pkg/lib/python3.10/site-packages/mavlink_pkg/comm_test.py to comm_test.cpython-310.pyc
+byte-compiling /home/deltahigh/cbr-2024/drone_104/install/mavlink_pkg/lib/python3.10/site-packages/mavlink_pkg/drone_node.py to drone_node.cpython-310.pyc
+error: could not create '/home/deltahigh/cbr-2024/drone_104/install/mavlink_pkg/share/ament_index/resource_index/packages/mavlink_pkg': No such file or directory
+running install_data
+copying resource/mavlink_pkg -> /home/deltahigh/cbr-2024/drone_104/install/mavlink_pkg/share/ament_index/resource_index/packages

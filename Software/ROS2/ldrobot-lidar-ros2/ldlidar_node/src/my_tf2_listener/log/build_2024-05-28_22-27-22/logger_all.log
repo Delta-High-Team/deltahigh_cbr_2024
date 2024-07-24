@@ -1,0 +1,85 @@
+[8.726s] DEBUG:colcon:Command line arguments: ['/usr/local/bin/colcon', 'build']
+[8.726s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x72ae51dab520>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x72ae51dab0a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x72ae51dab0a0>>)
+[9.061s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[9.061s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[9.061s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[9.061s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[9.061s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[9.061s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[9.062s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener'
+[9.062s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[9.062s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[9.062s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[9.062s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[9.062s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[9.062s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[9.062s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[9.062s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[9.062s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[9.190s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_python' and name 'my_tf2_listener'
+[9.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[9.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[9.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[9.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[9.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[9.422s] Level 5:colcon.colcon_core.verb:set package 'my_tf2_listener' build argument 'cmake_args' from command line to 'None'
+[9.422s] Level 5:colcon.colcon_core.verb:set package 'my_tf2_listener' build argument 'cmake_target' from command line to 'None'
+[9.422s] Level 5:colcon.colcon_core.verb:set package 'my_tf2_listener' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[9.422s] Level 5:colcon.colcon_core.verb:set package 'my_tf2_listener' build argument 'cmake_clean_cache' from command line to 'False'
+[9.422s] Level 5:colcon.colcon_core.verb:set package 'my_tf2_listener' build argument 'cmake_clean_first' from command line to 'False'
+[9.422s] Level 5:colcon.colcon_core.verb:set package 'my_tf2_listener' build argument 'cmake_force_configure' from command line to 'False'
+[9.422s] Level 5:colcon.colcon_core.verb:set package 'my_tf2_listener' build argument 'ament_cmake_args' from command line to 'None'
+[9.422s] Level 5:colcon.colcon_core.verb:set package 'my_tf2_listener' build argument 'catkin_cmake_args' from command line to 'None'
+[9.422s] Level 5:colcon.colcon_core.verb:set package 'my_tf2_listener' build argument 'catkin_skip_building_tests' from command line to 'False'
+[9.422s] DEBUG:colcon.colcon_core.verb:Building package 'my_tf2_listener' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/build/my_tf2_listener', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener', 'merge_install': False, 'path': '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener', 'symlink_install': False, 'test_result_base': None}
+[9.437s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[9.452s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[9.453s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener' with build type 'ament_python'
+[9.453s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_tf2_listener', 'ament_prefix_path')
+[9.475s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[9.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/share/my_tf2_listener/hook/ament_prefix_path.ps1'
+[9.476s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/share/my_tf2_listener/hook/ament_prefix_path.dsv'
+[9.477s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/share/my_tf2_listener/hook/ament_prefix_path.sh'
+[9.494s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.494s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.735s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener'
+[9.750s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.750s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.152s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener': PYTHONPATH=/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/build/my_tf2_listener/prefix_override:/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/my_tf2_listener build --build-base /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/build/my_tf2_listener/build install --record /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/build/my_tf2_listener/install.log --single-version-externally-managed
+[11.670s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener' returned '0': PYTHONPATH=/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/build/my_tf2_listener/prefix_override:/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/my_tf2_listener build --build-base /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/build/my_tf2_listener/build install --record /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/build/my_tf2_listener/install.log --single-version-externally-managed
+[11.706s] Level 1:colcon.colcon_core.environment:checking '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener' for CMake module files
+[11.706s] Level 1:colcon.colcon_core.environment:checking '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener' for CMake config files
+[11.707s] Level 1:colcon.colcon_core.environment:checking '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/lib'
+[11.707s] Level 1:colcon.colcon_core.environment:checking '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/bin'
+[11.707s] Level 1:colcon.colcon_core.environment:checking '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/lib/pkgconfig/my_tf2_listener.pc'
+[11.707s] Level 1:colcon.colcon_core.environment:checking '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/lib/python3.10/site-packages'
+[11.707s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_tf2_listener', 'pythonpath')
+[11.722s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/share/my_tf2_listener/hook/pythonpath.ps1'
+[11.723s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/share/my_tf2_listener/hook/pythonpath.dsv'
+[11.723s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/share/my_tf2_listener/hook/pythonpath.sh'
+[11.724s] Level 1:colcon.colcon_core.environment:checking '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/bin'
+[11.724s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_tf2_listener)
+[11.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/share/my_tf2_listener/package.ps1'
+[11.740s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/share/my_tf2_listener/package.dsv'
+[11.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/share/my_tf2_listener/package.sh'
+[11.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/share/my_tf2_listener/package.bash'
+[11.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/share/my_tf2_listener/package.zsh'
+[11.743s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/share/colcon-core/packages/my_tf2_listener)
+[11.743s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.743s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.743s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[11.744s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.775s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.775s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.775s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.784s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.801s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/local_setup.ps1'
+[11.802s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/_local_setup_util_ps1.py'
+[11.803s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/setup.ps1'
+[11.828s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/local_setup.sh'
+[11.829s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/_local_setup_util_sh.py'
+[11.829s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/setup.sh'
+[11.845s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/local_setup.bash'
+[11.846s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/setup.bash'
+[11.861s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/local_setup.zsh'
+[11.862s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/setup.zsh'

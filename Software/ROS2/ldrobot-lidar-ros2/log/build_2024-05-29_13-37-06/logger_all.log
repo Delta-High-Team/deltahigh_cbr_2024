@@ -1,0 +1,216 @@
+[2.796s] DEBUG:colcon:Command line arguments: ['/usr/local/bin/colcon', 'build']
+[2.796s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7c6e8f9a75b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7c6e8f9a7130>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7c6e8f9a7130>>)
+[2.999s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.999s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.999s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.999s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.999s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.999s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.999s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/joao/cbr-2024/ldrobot-lidar-ros2'
+[2.999s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.999s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.999s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.999s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.999s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.999s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.999s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.999s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.999s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.059s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.059s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.059s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.059s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.059s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.059s] Level 1:colcon.colcon_core.package_identification:_identify(3d_model) by extensions ['ignore', 'ignore_ament_install']
+[3.059s] Level 1:colcon.colcon_core.package_identification:_identify(3d_model) by extension 'ignore'
+[3.059s] Level 1:colcon.colcon_core.package_identification:_identify(3d_model) by extension 'ignore_ament_install'
+[3.059s] Level 1:colcon.colcon_core.package_identification:_identify(3d_model) by extensions ['colcon_pkg']
+[3.059s] Level 1:colcon.colcon_core.package_identification:_identify(3d_model) by extension 'colcon_pkg'
+[3.059s] Level 1:colcon.colcon_core.package_identification:_identify(3d_model) by extensions ['colcon_meta']
+[3.059s] Level 1:colcon.colcon_core.package_identification:_identify(3d_model) by extension 'colcon_meta'
+[3.059s] Level 1:colcon.colcon_core.package_identification:_identify(3d_model) by extensions ['ros']
+[3.059s] Level 1:colcon.colcon_core.package_identification:_identify(3d_model) by extension 'ros'
+[3.059s] Level 1:colcon.colcon_core.package_identification:_identify(3d_model) by extensions ['cmake', 'python']
+[3.059s] Level 1:colcon.colcon_core.package_identification:_identify(3d_model) by extension 'cmake'
+[3.059s] Level 1:colcon.colcon_core.package_identification:_identify(3d_model) by extension 'python'
+[3.059s] Level 1:colcon.colcon_core.package_identification:_identify(3d_model) by extensions ['python_setup_py']
+[3.059s] Level 1:colcon.colcon_core.package_identification:_identify(3d_model) by extension 'python_setup_py'
+[3.060s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.060s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.060s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.060s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['ignore', 'ignore_ament_install']
+[3.060s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ignore'
+[3.060s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ignore_ament_install'
+[3.060s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['colcon_pkg']
+[3.060s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'colcon_pkg'
+[3.060s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['colcon_meta']
+[3.060s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'colcon_meta'
+[3.060s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['ros']
+[3.060s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ros'
+[3.060s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['cmake', 'python']
+[3.060s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'cmake'
+[3.060s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'python'
+[3.060s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['python_setup_py']
+[3.060s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'python_setup_py'
+[3.061s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extensions ['ignore', 'ignore_ament_install']
+[3.061s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extension 'ignore'
+[3.061s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extension 'ignore_ament_install'
+[3.061s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extensions ['colcon_pkg']
+[3.061s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extension 'colcon_pkg'
+[3.061s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extensions ['colcon_meta']
+[3.061s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extension 'colcon_meta'
+[3.061s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extensions ['ros']
+[3.061s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extension 'ros'
+[3.061s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extensions ['cmake', 'python']
+[3.061s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extension 'cmake'
+[3.061s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extension 'python'
+[3.061s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extensions ['python_setup_py']
+[3.061s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extension 'python_setup_py'
+[3.061s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.061s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.061s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.061s] Level 1:colcon.colcon_core.package_identification:_identify(ldlidar) by extensions ['ignore', 'ignore_ament_install']
+[3.061s] Level 1:colcon.colcon_core.package_identification:_identify(ldlidar) by extension 'ignore'
+[3.062s] Level 1:colcon.colcon_core.package_identification:_identify(ldlidar) by extension 'ignore_ament_install'
+[3.062s] Level 1:colcon.colcon_core.package_identification:_identify(ldlidar) by extensions ['colcon_pkg']
+[3.062s] Level 1:colcon.colcon_core.package_identification:_identify(ldlidar) by extension 'colcon_pkg'
+[3.062s] Level 1:colcon.colcon_core.package_identification:_identify(ldlidar) by extensions ['colcon_meta']
+[3.062s] Level 1:colcon.colcon_core.package_identification:_identify(ldlidar) by extension 'colcon_meta'
+[3.062s] Level 1:colcon.colcon_core.package_identification:_identify(ldlidar) by extensions ['ros']
+[3.062s] Level 1:colcon.colcon_core.package_identification:_identify(ldlidar) by extension 'ros'
+[3.065s] DEBUG:colcon.colcon_core.package_identification:Package 'ldlidar' with type 'ros.ament_cmake' and name 'ldlidar'
+[3.065s] Level 1:colcon.colcon_core.package_identification:_identify(ldlidar_component) by extensions ['ignore', 'ignore_ament_install']
+[3.065s] Level 1:colcon.colcon_core.package_identification:_identify(ldlidar_component) by extension 'ignore'
+[3.065s] Level 1:colcon.colcon_core.package_identification:_identify(ldlidar_component) by extension 'ignore_ament_install'
+[3.065s] Level 1:colcon.colcon_core.package_identification:_identify(ldlidar_component) by extensions ['colcon_pkg']
+[3.065s] Level 1:colcon.colcon_core.package_identification:_identify(ldlidar_component) by extension 'colcon_pkg'
+[3.065s] Level 1:colcon.colcon_core.package_identification:_identify(ldlidar_component) by extensions ['colcon_meta']
+[3.065s] Level 1:colcon.colcon_core.package_identification:_identify(ldlidar_component) by extension 'colcon_meta'
+[3.065s] Level 1:colcon.colcon_core.package_identification:_identify(ldlidar_component) by extensions ['ros']
+[3.065s] Level 1:colcon.colcon_core.package_identification:_identify(ldlidar_component) by extension 'ros'
+[3.067s] DEBUG:colcon.colcon_core.package_identification:Package 'ldlidar_component' with type 'ros.ament_cmake' and name 'ldlidar_component'
+[3.068s] Level 1:colcon.colcon_core.package_identification:_identify(ldlidar_node) by extensions ['ignore', 'ignore_ament_install']
+[3.068s] Level 1:colcon.colcon_core.package_identification:_identify(ldlidar_node) by extension 'ignore'
+[3.068s] Level 1:colcon.colcon_core.package_identification:_identify(ldlidar_node) by extension 'ignore_ament_install'
+[3.068s] Level 1:colcon.colcon_core.package_identification:_identify(ldlidar_node) by extensions ['colcon_pkg']
+[3.068s] Level 1:colcon.colcon_core.package_identification:_identify(ldlidar_node) by extension 'colcon_pkg'
+[3.068s] Level 1:colcon.colcon_core.package_identification:_identify(ldlidar_node) by extensions ['colcon_meta']
+[3.068s] Level 1:colcon.colcon_core.package_identification:_identify(ldlidar_node) by extension 'colcon_meta'
+[3.068s] Level 1:colcon.colcon_core.package_identification:_identify(ldlidar_node) by extensions ['ros']
+[3.068s] Level 1:colcon.colcon_core.package_identification:_identify(ldlidar_node) by extension 'ros'
+[3.069s] DEBUG:colcon.colcon_core.package_identification:Package 'ldlidar_node' with type 'ros.ament_cmake' and name 'ldlidar_node'
+[3.069s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.069s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.069s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.069s] Level 1:colcon.colcon_core.package_identification:_identify(rules) by extensions ['ignore', 'ignore_ament_install']
+[3.069s] Level 1:colcon.colcon_core.package_identification:_identify(rules) by extension 'ignore'
+[3.069s] Level 1:colcon.colcon_core.package_identification:_identify(rules) by extension 'ignore_ament_install'
+[3.069s] Level 1:colcon.colcon_core.package_identification:_identify(rules) by extensions ['colcon_pkg']
+[3.069s] Level 1:colcon.colcon_core.package_identification:_identify(rules) by extension 'colcon_pkg'
+[3.070s] Level 1:colcon.colcon_core.package_identification:_identify(rules) by extensions ['colcon_meta']
+[3.070s] Level 1:colcon.colcon_core.package_identification:_identify(rules) by extension 'colcon_meta'
+[3.070s] Level 1:colcon.colcon_core.package_identification:_identify(rules) by extensions ['ros']
+[3.070s] Level 1:colcon.colcon_core.package_identification:_identify(rules) by extension 'ros'
+[3.070s] Level 1:colcon.colcon_core.package_identification:_identify(rules) by extensions ['cmake', 'python']
+[3.070s] Level 1:colcon.colcon_core.package_identification:_identify(rules) by extension 'cmake'
+[3.070s] Level 1:colcon.colcon_core.package_identification:_identify(rules) by extension 'python'
+[3.070s] Level 1:colcon.colcon_core.package_identification:_identify(rules) by extensions ['python_setup_py']
+[3.070s] Level 1:colcon.colcon_core.package_identification:_identify(rules) by extension 'python_setup_py'
+[3.070s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ignore', 'ignore_ament_install']
+[3.070s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore'
+[3.070s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore_ament_install'
+[3.070s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_pkg']
+[3.070s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_pkg'
+[3.070s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_meta']
+[3.070s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_meta'
+[3.070s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ros']
+[3.070s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ros'
+[3.070s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['cmake', 'python']
+[3.070s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'cmake'
+[3.070s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python'
+[3.070s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['python_setup_py']
+[3.071s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python_setup_py'
+[3.071s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.071s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.071s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.071s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.071s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.264s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_component' build argument 'cmake_args' from command line to 'None'
+[3.264s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_component' build argument 'cmake_target' from command line to 'None'
+[3.264s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_component' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.264s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_component' build argument 'cmake_clean_cache' from command line to 'False'
+[3.264s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_component' build argument 'cmake_clean_first' from command line to 'False'
+[3.264s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_component' build argument 'cmake_force_configure' from command line to 'False'
+[3.264s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_component' build argument 'ament_cmake_args' from command line to 'None'
+[3.264s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_component' build argument 'catkin_cmake_args' from command line to 'None'
+[3.264s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_component' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.264s] DEBUG:colcon.colcon_core.verb:Building package 'ldlidar_component' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/joao/cbr-2024/ldrobot-lidar-ros2/build/ldlidar_component', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_component', 'merge_install': False, 'path': '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_component', 'symlink_install': False, 'test_result_base': None}
+[3.279s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_node' build argument 'cmake_args' from command line to 'None'
+[3.279s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_node' build argument 'cmake_target' from command line to 'None'
+[3.279s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.279s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_node' build argument 'cmake_clean_cache' from command line to 'False'
+[3.279s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_node' build argument 'cmake_clean_first' from command line to 'False'
+[3.279s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_node' build argument 'cmake_force_configure' from command line to 'False'
+[3.279s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_node' build argument 'ament_cmake_args' from command line to 'None'
+[3.279s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_node' build argument 'catkin_cmake_args' from command line to 'None'
+[3.279s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.279s] DEBUG:colcon.colcon_core.verb:Building package 'ldlidar_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/joao/cbr-2024/ldrobot-lidar-ros2/build/ldlidar_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_node', 'merge_install': False, 'path': '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node', 'symlink_install': False, 'test_result_base': None}
+[3.294s] Level 5:colcon.colcon_core.verb:set package 'ldlidar' build argument 'cmake_args' from command line to 'None'
+[3.294s] Level 5:colcon.colcon_core.verb:set package 'ldlidar' build argument 'cmake_target' from command line to 'None'
+[3.294s] Level 5:colcon.colcon_core.verb:set package 'ldlidar' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.294s] Level 5:colcon.colcon_core.verb:set package 'ldlidar' build argument 'cmake_clean_cache' from command line to 'False'
+[3.294s] Level 5:colcon.colcon_core.verb:set package 'ldlidar' build argument 'cmake_clean_first' from command line to 'False'
+[3.294s] Level 5:colcon.colcon_core.verb:set package 'ldlidar' build argument 'cmake_force_configure' from command line to 'False'
+[3.294s] Level 5:colcon.colcon_core.verb:set package 'ldlidar' build argument 'ament_cmake_args' from command line to 'None'
+[3.294s] Level 5:colcon.colcon_core.verb:set package 'ldlidar' build argument 'catkin_cmake_args' from command line to 'None'
+[3.294s] Level 5:colcon.colcon_core.verb:set package 'ldlidar' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.294s] DEBUG:colcon.colcon_core.verb:Building package 'ldlidar' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/joao/cbr-2024/ldrobot-lidar-ros2/build/ldlidar', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar', 'merge_install': False, 'path': '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar', 'symlink_install': False, 'test_result_base': None}
+[3.309s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.324s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.324s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_component' with build type 'ament_cmake'
+[3.325s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_component'
+[3.347s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.348s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.348s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.436s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/joao/cbr-2024/ldrobot-lidar-ros2/build/ldlidar_component': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/joao/cbr-2024/ldrobot-lidar-ros2/build/ldlidar_component -- -j8 -l8
+[3.555s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/joao/cbr-2024/ldrobot-lidar-ros2/build/ldlidar_component' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/joao/cbr-2024/ldrobot-lidar-ros2/build/ldlidar_component -- -j8 -l8
+[3.593s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ldlidar_component)
+[3.615s] Level 1:colcon.colcon_core.environment:checking '/home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_component' for CMake module files
+[3.615s] Level 1:colcon.colcon_core.environment:checking '/home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_component' for CMake config files
+[3.615s] Level 1:colcon.colcon_core.shell:create_environment_hook('ldlidar_component', 'cmake_prefix_path')
+[3.631s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/hook/cmake_prefix_path.ps1'
+[3.632s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/hook/cmake_prefix_path.dsv'
+[3.632s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/hook/cmake_prefix_path.sh'
+[3.633s] Level 1:colcon.colcon_core.environment:checking '/home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_component/lib'
+[3.634s] Level 1:colcon.colcon_core.shell:create_environment_hook('ldlidar_component', 'ld_library_path_lib')
+[3.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/hook/ld_library_path_lib.ps1'
+[3.649s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/hook/ld_library_path_lib.dsv'
+[3.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/hook/ld_library_path_lib.sh'
+[3.650s] Level 1:colcon.colcon_core.environment:checking '/home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_component/bin'
+[3.650s] Level 1:colcon.colcon_core.environment:checking '/home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_component/lib/pkgconfig/ldlidar_component.pc'
+[3.666s] Level 1:colcon.colcon_core.environment:checking '/home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_component/lib/python3.10/site-packages'
+[3.666s] Level 1:colcon.colcon_core.environment:checking '/home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_component/bin'
+[3.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/package.ps1'
+[3.683s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/package.dsv'
+[3.684s] INFO:colcon.colcon_core.shell:Creating package script '/home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/package.sh'
+[3.685s] INFO:colcon.colcon_core.shell:Creating package script '/home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/package.bash'
+[3.686s] INFO:colcon.colcon_core.shell:Creating package script '/home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/package.zsh'
+[3.688s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar_component/share/colcon-core/packages/ldlidar_component)
+[3.699s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.699s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.699s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[3.699s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.736s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.736s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.736s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.744s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.760s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/joao/cbr-2024/ldrobot-lidar-ros2/install/local_setup.ps1'
+[3.761s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/joao/cbr-2024/ldrobot-lidar-ros2/install/_local_setup_util_ps1.py'
+[3.762s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/joao/cbr-2024/ldrobot-lidar-ros2/install/setup.ps1'
+[3.788s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/joao/cbr-2024/ldrobot-lidar-ros2/install/local_setup.sh'
+[3.788s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/joao/cbr-2024/ldrobot-lidar-ros2/install/_local_setup_util_sh.py'
+[3.789s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/joao/cbr-2024/ldrobot-lidar-ros2/install/setup.sh'
+[3.805s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/joao/cbr-2024/ldrobot-lidar-ros2/install/local_setup.bash'
+[3.805s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/joao/cbr-2024/ldrobot-lidar-ros2/install/setup.bash'
+[3.821s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/joao/cbr-2024/ldrobot-lidar-ros2/install/local_setup.zsh'
+[3.822s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/joao/cbr-2024/ldrobot-lidar-ros2/install/setup.zsh'

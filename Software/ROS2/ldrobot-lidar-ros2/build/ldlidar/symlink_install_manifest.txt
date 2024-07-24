@@ -1,0 +1,15 @@
+/home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar/share/ament_index/resource_index/package_run_dependencies/ldlidar
+/home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar/share/ament_index/resource_index/parent_prefix_path/ldlidar
+/home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar/share/ldlidar/environment/ament_prefix_path.sh
+/home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar/share/ldlidar/environment/ament_prefix_path.dsv
+/home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar/share/ldlidar/environment/path.sh
+/home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar/share/ldlidar/environment/path.dsv
+/home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar/share/ldlidar/local_setup.bash
+/home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar/share/ldlidar/local_setup.sh
+/home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar/share/ldlidar/local_setup.zsh
+/home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar/share/ldlidar/local_setup.dsv
+/home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar/share/ldlidar/package.dsv
+/home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar/share/ament_index/resource_index/packages/ldlidar
+/home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar/share/ldlidar/cmake/ldlidarConfig.cmake
+/home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar/share/ldlidar/cmake/ldlidarConfig-version.cmake
+/home/joao/cbr-2024/ldrobot-lidar-ros2/install/ldlidar/share/ldlidar/package.xml

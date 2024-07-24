@@ -1,0 +1,3 @@
+[console_scripts]
+drone_node = mavlink_pkg.drone_node:main
+

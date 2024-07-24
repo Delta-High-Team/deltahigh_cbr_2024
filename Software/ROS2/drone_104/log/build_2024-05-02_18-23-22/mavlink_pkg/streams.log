@@ -1,0 +1,21 @@
+[0.779s] Invoking command in '/home/deltahigh/cbr-2024/drone_104/build/mavlink_pkg': PYTHONPATH=/home/deltahigh/cbr-2024/drone_104/build/mavlink_pkg/prefix_override:/home/deltahigh/cbr-2024/drone_104/install/mavlink_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/deltahigh/cbr-2024/drone_104/build/mavlink_pkg/build --no-deps symlink_data
+[1.105s] running develop
+[1.106s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.106s]   warnings.warn(
+[1.307s] running egg_info
+[1.307s] writing mavlink_pkg.egg-info/PKG-INFO
+[1.308s] writing dependency_links to mavlink_pkg.egg-info/dependency_links.txt
+[1.308s] writing entry points to mavlink_pkg.egg-info/entry_points.txt
+[1.308s] writing requirements to mavlink_pkg.egg-info/requires.txt
+[1.308s] writing top-level names to mavlink_pkg.egg-info/top_level.txt
+[1.310s] reading manifest file 'mavlink_pkg.egg-info/SOURCES.txt'
+[1.312s] writing manifest file 'mavlink_pkg.egg-info/SOURCES.txt'
+[1.313s] running build_ext
+[1.313s] Creating /home/deltahigh/cbr-2024/drone_104/install/mavlink_pkg/lib/python3.10/site-packages/mavlink-pkg.egg-link (link to .)
+[1.314s] Installing drone_node script to /home/deltahigh/cbr-2024/drone_104/install/mavlink_pkg/lib/mavlink_pkg
+[1.315s] 
+[1.317s] Installed /home/deltahigh/cbr-2024/drone_104/build/mavlink_pkg
+[1.317s] error: [Errno 17] File exists: '/home/deltahigh/cbr-2024/drone_104/build/mavlink_pkg/resource/mavlink_pkg' -> '/home/deltahigh/cbr-2024/drone_104/install/mavlink_pkg/share/ament_index/resource_index/packages/mavlink_pkg'
+[1.317s] running symlink_data
+[1.317s] symbolically linking /home/deltahigh/cbr-2024/drone_104/build/mavlink_pkg/resource/mavlink_pkg -> /home/deltahigh/cbr-2024/drone_104/install/mavlink_pkg/share/ament_index/resource_index/packages
+[1.352s] Invoked command in '/home/deltahigh/cbr-2024/drone_104/build/mavlink_pkg' returned '1': PYTHONPATH=/home/deltahigh/cbr-2024/drone_104/build/mavlink_pkg/prefix_override:/home/deltahigh/cbr-2024/drone_104/install/mavlink_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/deltahigh/cbr-2024/drone_104/build/mavlink_pkg/build --no-deps symlink_data

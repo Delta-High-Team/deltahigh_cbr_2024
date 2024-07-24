@@ -1,0 +1,25 @@
+[3.205s] Invoking command in '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener': PYTHONPATH=/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/build/my_tf2_listener/prefix_override:/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/my_tf2_listener build --build-base /home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/build/my_tf2_listener/build install --record /home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/build/my_tf2_listener/install.log --single-version-externally-managed install_data
+[4.811s] running egg_info
+[4.821s] writing build/my_tf2_listener/my_tf2_listener.egg-info/PKG-INFO
+[4.824s] writing dependency_links to build/my_tf2_listener/my_tf2_listener.egg-info/dependency_links.txt
+[4.828s] writing entry points to build/my_tf2_listener/my_tf2_listener.egg-info/entry_points.txt
+[4.834s] writing requirements to build/my_tf2_listener/my_tf2_listener.egg-info/requires.txt
+[4.834s] writing top-level names to build/my_tf2_listener/my_tf2_listener.egg-info/top_level.txt
+[4.843s] reading manifest file 'build/my_tf2_listener/my_tf2_listener.egg-info/SOURCES.txt'
+[4.849s] writing manifest file 'build/my_tf2_listener/my_tf2_listener.egg-info/SOURCES.txt'
+[4.852s] running build
+[4.853s] running build_py
+[4.856s] copying my_tf2_listener/tf_send_odometry.py -> /home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/build/my_tf2_listener/build/lib/my_tf2_listener
+[4.859s] running install
+[4.861s] running install_lib
+[4.865s] copying /home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/build/my_tf2_listener/build/lib/my_tf2_listener/tf_send_odometry.py -> /home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/lib/python3.10/site-packages/my_tf2_listener
+[4.869s] byte-compiling /home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/lib/python3.10/site-packages/my_tf2_listener/tf_send_odometry.py to tf_send_odometry.cpython-310.pyc
+[4.874s] running install_data
+[4.876s] running install_egg_info
+[4.881s] removing '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/lib/python3.10/site-packages/my_tf2_listener-0.0.0-py3.10.egg-info' (and everything under it)
+[4.884s] Copying build/my_tf2_listener/my_tf2_listener.egg-info to /home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/lib/python3.10/site-packages/my_tf2_listener-0.0.0-py3.10.egg-info
+[4.888s] running install_scripts
+[4.943s] Installing tf2_listener script to /home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/lib/my_tf2_listener
+[4.947s] Installing tf_send_odometry script to /home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/lib/my_tf2_listener
+[4.952s] writing list of installed files to '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/build/my_tf2_listener/install.log'
+[5.029s] Invoked command in '/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener' returned '0': PYTHONPATH=/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/build/my_tf2_listener/prefix_override:/home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/install/my_tf2_listener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/my_tf2_listener build --build-base /home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/build/my_tf2_listener/build install --record /home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/src/my_tf2_listener/build/my_tf2_listener/install.log --single-version-externally-managed install_data

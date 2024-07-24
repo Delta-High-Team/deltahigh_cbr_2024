@@ -1,0 +1,6 @@
+[0.111s] Invoking command in '/home/joao/cbr-2024/ldrobot-lidar-ros2/build/ldlidar_component': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/joao/cbr-2024/ldrobot-lidar-ros2/build/ldlidar_component -- -j8 -l8
+[0.116s] [0mCMake Error: The current CMakeCache.txt directory /home/joao/cbr-2024/ldrobot-lidar-ros2/build/ldlidar_component/CMakeCache.txt is different than the directory /home/deltahigh/ldrobot-lidar-ros2/build/ldlidar_component where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.227s] [0mCMake Error: The source directory "/home/deltahigh/ldrobot-lidar-ros2/ldlidar_component" does not exist.
+[0.228s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.228s] gmake: *** [Makefile:322: cmake_check_build_system] Error 1
+[0.230s] Invoked command in '/home/joao/cbr-2024/ldrobot-lidar-ros2/build/ldlidar_component' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/joao/cbr-2024/ldrobot-lidar-ros2/build/ldlidar_component -- -j8 -l8

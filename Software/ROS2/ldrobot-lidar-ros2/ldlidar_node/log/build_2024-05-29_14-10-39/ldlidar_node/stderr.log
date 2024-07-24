@@ -1,0 +1,3 @@
+[0mCMake Error: The current CMakeCache.txt directory /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/build/ldlidar_node/CMakeCache.txt is different than the directory /home/deltahigh/ldrobot-lidar-ros2/ldlidar_node/build/ldlidar_node where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0mCMake Error: The source directory "/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node" does not appear to contain CMakeLists.txt.
+Specify --help for usage, or press the help button on the CMake GUI.[0m

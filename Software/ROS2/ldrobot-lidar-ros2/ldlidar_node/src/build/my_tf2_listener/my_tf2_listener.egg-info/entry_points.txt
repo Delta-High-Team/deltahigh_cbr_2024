@@ -1,0 +1,4 @@
+[console_scripts]
+tf2_listener = my_tf2_listener.tf2_listener:main
+tf_send_odometry = my_tf2_listener.tf_send_odometry:main
+

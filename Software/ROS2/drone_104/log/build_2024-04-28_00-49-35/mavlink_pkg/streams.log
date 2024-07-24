@@ -1,0 +1,23 @@
+[2.564s] Invoking command in '/home/ubuntu/cbr-2024/drone_104/src/mavlink_pkg': PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/ubuntu/cbr-2024/drone_104/build/mavlink_pkg/prefix_override:/home/ubuntu/cbr-2024/drone_104/install/mavlink_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mavlink_pkg build --build-base /home/ubuntu/cbr-2024/drone_104/build/mavlink_pkg/build install --record /home/ubuntu/cbr-2024/drone_104/build/mavlink_pkg/install.log --single-version-externally-managed install_data
+[3.524s] running egg_info
+[3.527s] writing ../../build/mavlink_pkg/mavlink_pkg.egg-info/PKG-INFO
+[3.528s] writing dependency_links to ../../build/mavlink_pkg/mavlink_pkg.egg-info/dependency_links.txt
+[3.529s] writing entry points to ../../build/mavlink_pkg/mavlink_pkg.egg-info/entry_points.txt
+[3.530s] writing requirements to ../../build/mavlink_pkg/mavlink_pkg.egg-info/requires.txt
+[3.530s] writing top-level names to ../../build/mavlink_pkg/mavlink_pkg.egg-info/top_level.txt
+[3.538s] reading manifest file '../../build/mavlink_pkg/mavlink_pkg.egg-info/SOURCES.txt'
+[3.540s] adding license file 'LICENSE'
+[3.543s] writing manifest file '../../build/mavlink_pkg/mavlink_pkg.egg-info/SOURCES.txt'
+[3.543s] running build
+[3.544s] running build_py
+[3.545s] running install
+[3.547s] running install_lib
+[3.552s] running install_data
+[3.553s] copying package.xml -> /home/ubuntu/cbr-2024/drone_104/install/mavlink_pkg/share/mavlink_pkg
+[3.554s] running install_egg_info
+[3.560s] removing '/home/ubuntu/cbr-2024/drone_104/install/mavlink_pkg/lib/python3.10/site-packages/mavlink_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[3.562s] Copying ../../build/mavlink_pkg/mavlink_pkg.egg-info to /home/ubuntu/cbr-2024/drone_104/install/mavlink_pkg/lib/python3.10/site-packages/mavlink_pkg-0.0.0-py3.10.egg-info
+[3.569s] running install_scripts
+[3.646s] Installing drone_node script to /home/ubuntu/cbr-2024/drone_104/install/mavlink_pkg/lib/mavlink_pkg
+[3.648s] writing list of installed files to '/home/ubuntu/cbr-2024/drone_104/build/mavlink_pkg/install.log'
+[3.787s] Invoked command in '/home/ubuntu/cbr-2024/drone_104/src/mavlink_pkg' returned '0': PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/ubuntu/cbr-2024/drone_104/build/mavlink_pkg/prefix_override:/home/ubuntu/cbr-2024/drone_104/install/mavlink_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mavlink_pkg build --build-base /home/ubuntu/cbr-2024/drone_104/build/mavlink_pkg/build install --record /home/ubuntu/cbr-2024/drone_104/build/mavlink_pkg/install.log --single-version-externally-managed install_data

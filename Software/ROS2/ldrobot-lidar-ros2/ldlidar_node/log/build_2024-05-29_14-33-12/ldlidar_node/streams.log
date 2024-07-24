@@ -1,0 +1,57 @@
+[0.059s] Invoking command in '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/build/ldlidar_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node
+[1.183s] -- The C compiler identification is GNU 11.4.0
+[1.979s] -- The CXX compiler identification is GNU 11.4.0
+[2.058s] -- Detecting C compiler ABI info
+[2.195s] -- Detecting C compiler ABI info - done
+[2.206s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[2.207s] -- Detecting C compile features
+[2.214s] -- Detecting C compile features - done
+[2.219s] -- Detecting CXX compiler ABI info
+[2.335s] -- Detecting CXX compiler ABI info - done
+[2.343s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[2.343s] -- Detecting CXX compile features
+[2.343s] -- Detecting CXX compile features - done
+[2.344s] --  * Release Mode
+[2.344s] -- * Found ROS2 humble
+[2.344s] -- * ROS2 humble is officially supported by this package.
+[2.487s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.855s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.968s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.181s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[3.468s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.506s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.555s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.663s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.746s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.934s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.973s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.452s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.492s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.533s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.646s] -- Looking for pthread.h
+[4.966s] -- Looking for pthread.h - found
+[4.966s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.219s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.220s] -- Found Threads: TRUE  
+[5.465s] -- Found rclcpp_components: 16.0.9 (/opt/ros/humble/share/rclcpp_components/cmake)
+[5.683s] -- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[5.787s] [31mCMake Error at CMakeLists.txt:92 (find_package):
+[5.787s]   By not providing "Findldlidar_component.cmake" in CMAKE_MODULE_PATH this
+[5.787s]   project has asked CMake to find a package configuration file provided by
+[5.787s]   "ldlidar_component", but CMake did not find one.
+[5.787s] 
+[5.787s]   Could not find a package configuration file provided by "ldlidar_component"
+[5.787s]   with any of the following names:
+[5.788s] 
+[5.788s]     ldlidar_componentConfig.cmake
+[5.788s]     ldlidar_component-config.cmake
+[5.788s] 
+[5.788s]   Add the installation prefix of "ldlidar_component" to CMAKE_PREFIX_PATH or
+[5.788s]   set "ldlidar_component_DIR" to a directory containing one of the above
+[5.788s]   files.  If "ldlidar_component" provides a separate development package or
+[5.788s]   SDK, be sure it has been installed.
+[5.788s] 
+[5.788s] [0m
+[5.788s] -- Configuring incomplete, errors occurred!
+[5.788s] See also "/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/build/ldlidar_node/CMakeFiles/CMakeOutput.log".
+[5.797s] Invoked command in '/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/build/ldlidar_node' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/joao/cbr-2024/ldrobot-lidar-ros2/ldlidar_node/install/ldlidar_node
