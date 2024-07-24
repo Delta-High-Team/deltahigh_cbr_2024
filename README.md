@@ -4,15 +4,14 @@ Repositório Público para CBR 2024
 O Team Description Paper (TDP) pode ser acessado em: [TDP](./DeltaHighTDP2024.pdf)
 
 
-Os arquivos para impressão 3D dos drones podem ser obtidos em:
-[Drone Robô Q450](./Drone_Q450) para o drone 450 mm (foto abaixo)
+Os arquivos para impressão 3D do Drone Q450 podem ser obtidos em
+[Drone Robô Q450](./Drone_Q450) 
+![Drone_Q450](./Drone_Q450/Q450_Montagem.png)
 
-![Drone Robô Q450](./Drone_Q450/Q450_Montagem.png)
-
-[Drone Robô Q260](./Drone_Q260) para o drone 260 mm (foto abaixo)
-
+Os arquivos para impressão 3D do Drone Q260 podem ser obtidos em
+[Drone_Q260](./Drone_Q260)
 ![Drone Robô Q260](./Drone_Q260/Q260_Montagem.png)
 
+A arquitetura de hardware e de software utilizadas pela equipe estão nas figuras abaixo
 ![Arquitetura de Hardware](./Arquitetura_Hardware.png)
-
 ![Arquitetura de Software](./Arquitetura_Software.png)
